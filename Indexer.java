@@ -31,6 +31,9 @@ public class Indexer {
         private static String FOREIGN_BROADCAST_INFORMATION_SERVICE_DIRECTORY = "corpus/fbis";
         private static String LA_TIMES_DIRECTORY = "corpus/latimes";
 
+        private static String[] directories = {FINANCIAL_TIMES_DIRECTORY, FEDERAL_REGISTER_DIRECTORY, FOREIGN_BROADCAST_INFORMATION_SERVICE_DIRECTORY, LA_TIMES_DIRECTORY};
+
+
         private Utils utils = new Utils();
         public void makeIndex() throws Exception
         {
@@ -51,62 +54,104 @@ public class Indexer {
                 // }
                 //ArrayList<ArrayList<String>> fields = utils.parseDocuments(file);
 
-                //Index ft
-                //Path innerDirectory = Paths.get(FINANCIAL_TIMES_DIRECTORY);
-		File dir = new File(FINANCIAL_TIMES_DIRECTORY);
-		File[] files = dir.listFiles();
-		ArrayList<Document> documents = new ArrayList<>();
-		FSDirectory fsDirectory = FSDirectory.open(Paths.get(INDEX_DIRECTORY, new String[0]));
-		IndexWriterConfig config = new IndexWriterConfig((Analyzer)standardAnalyzer);
-		IndexWriter iwriter = new IndexWriter((Directory)fsDirectory, config);
+          //Path innerDirectory = Paths.get(FINANCIAL_TIMES_DIRECTORY);
+        for(String directory : directories)
+        {
+            File dir = new File(directory);
+            File[] files = dir.listFiles();
+            for(File file : files)
+            {
+                System.out.println(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, file.getAbsolutePath().lastIndexOf("/")+3));
+
+                if(file.isDirectory())
+                {
+                    File[] filesInsideDirectory = file.listFiles();
+		    for(File innerFile : filesInsideDirectory)
+		    {
+                    	if(innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath.lastIndexOf("/")+3).equals("ft"))
+			{
+				// CALL FUNCTION TO PARSE FINANCIAL TIMES DOCUMENTS
+			}
+			else if(innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath.lastIndexOf("/")+3).equals("fr"))
+			{
+				// CALL FUNCTION TO PARSE FEDERAL REGISTER DOCUMENTS
+			}
+		    }
+                }
+		else if( (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fb")) ||  (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("ft")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fr")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("la")))
+                {
+                    if(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath.lastIndexOf("/")+3).equals("fb"))
+                        {
+                                // CALL FUNCTION TO PARSE FOREIGN BROADCAST DOCUMENTS
+                        }
+		    else if(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath.lastIndexOf("/")+3).equals("la"))
+                        {
+                                // CALL FUNCTION TO PARSE LA TIMES DOCUMENTS
+                        }
+
+                }
+                
+            }
+            
+            
+        }
+
+
+
+
+
+
+
+
+
  	
 
-		for(File file : files)
-		{
-			if(file.isDirectory()){
+		//for(File file : files)
+	//	{
+	//		if(file.isDirectory()){
 			// System.out.println("Directory: " + file.getAbsolutePath());
-			File[] filesInsideDirectory = file.listFiles();
-			for(File innerFile : filesInsideDirectory){
-				System.out.println("File: " + innerFile.getAbsolutePath());
-				//ArrayList<ArrayList<String>> fields = this.utils.parseDocuments(innerFile);
-				ParsedDocResults parsed = this.utils.parseFinancialTimesDocuments(innerFile);				
-				ArrayList<ArrayList<String>> fields = parsed.fields;
-				int docCount = parsed.docCount;
+	//		File[] filesInsideDirectory = file.listFiles();
+	//		for(File innerFile : filesInsideDirectory){
+	//			System.out.println("File: " + innerFile.getAbsolutePath());
+	//			//ArrayList<ArrayList<String>> fields = this.utils.parseDocuments(innerFile);
+	//			ParsedDocResults parsed = this.utils.parseFinancialTimesDocuments(innerFile);				
+	//			ArrayList<ArrayList<String>> fields = parsed.fields;
+	//			int docCount = parsed.docCount;
 
-	   			config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-				Document doc = new Document();
-				FieldType type = new FieldType();
-				type.setIndexOptions(IndexOptions.DOCS_AND_FREQS);
-   				type.setStored(true);
-    				type.setTokenized(true);
-    				type.setStoreTermVectors(true);
-				for(int i = 0; i < docCount; i++){
-					for(int j = 0; j < fields.size(); j++){
-					switch(j){
-						case 0:
+	  // 			config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
+	//			Document doc = new Document();
+	//			FieldType type = new FieldType();
+	//			type.setIndexOptions(IndexOptions.DOCS_AND_FREQS);
+   	//			type.setStored(true);
+    	//			type.setTokenized(true);
+    	//			type.setStoreTermVectors(true);
+	//			for(int i = 0; i < docCount; i++){
+	//				for(int j = 0; j < fields.size(); j++){
+	//				switch(j){
+	//					case 0:
 						//doc.add((IndexableField)new TextField("Document_number", ((ArrayList<String>)fields.get(j)).get(i), Field.Store.YES));
-						break;
+	//					break;
 						
-						case 1:
+	//					case 1:
 						 //doc.add((IndexableField)new Field("Title", ((ArrayList<CharSequence>)fields.get(j)).get(i), (IndexableFieldType)type));
-						break;
+	//					break;
 
-						case 2:
+	//					case 2:
 						 //doc.add((IndexableField)new Field("Text", ((ArrayList<CharSequence>)fields.get(j)).get(i), (IndexableFieldType)type));
-						break;
-					}				
-					}
-				documents.add(doc);
-				doc = new Document();			
-				}
-			}
+	//					break;
+	//				}				
+	//				}
+	//			documents.add(doc);
+	//			doc = new Document();			
+	//			}
+	//		}
 
-			}
-		}
-		iwriter.addDocuments(documents);
-		iwriter.close();
-		fsDirectory.close();
-		System.out.println("Indexing done \n \n");
+	//		}
+	//	}
+	//	iwriter.addDocuments(documents);
+	//	iwriter.close();
+	//	fsDirectory.close();
+	//	System.out.println("Indexing done \n \n");
 
                 //Files.walk(dir).forEach(path -> {
                 //    if(path.toFile().isDirectory())
