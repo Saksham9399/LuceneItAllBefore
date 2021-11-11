@@ -39,8 +39,7 @@ public class Indexer {
 
 
     //private Utils utils = new Utils();
-    public void makeIndex() throws Exception
-    {
+    public void makeIndex() throws Exception {
 
         //String currentDirectory = System.getProperty("user.dir");
         //System.out.println("The current working directory is " + currentDirectory);
@@ -65,26 +64,26 @@ public class Indexer {
         String file_ft = filePath + "ft.csv";
         String file_la = filePath + "la.csv";
 
-        BufferedWriter fw=null;
-        fw = new BufferedWriter(new FileWriter(file_ft,true));
+        BufferedWriter fw = null;
+        fw = new BufferedWriter(new FileWriter(file_ft, true));
         String header = "DOCNO,HEADLINE,TEXT";
         fw.write(header);
         fw.newLine();
-        for(String directory : directories)
-        {
+
+        BufferedWriter fb = null;
+        fb = new BufferedWriter(new FileWriter(file_fb, true));
+        fb.write(header);
+        fb.newLine();
+        for (String directory : directories) {
             File dir = new File(directory);
             File[] files = dir.listFiles();
 
-            for(File file : files)
-            {
-                System.out.println(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, file.getAbsolutePath().lastIndexOf("/")+3));
-                if(file.isDirectory())
-                {
+            for (File file : files) {
+                System.out.println(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3));
+                if (file.isDirectory()) {
                     File[] filesInsideDirectory = file.listFiles();
-                    for(File innerFile : filesInsideDirectory)
-                    {
-                        if(innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/")+3).equals("ft"))
-                        {
+                    for (File innerFile : filesInsideDirectory) {
+                        if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/") + 3).equals("ft")) {
                             String content = new String(Files.readAllBytes(Paths.get(innerFile.getAbsolutePath())));
                             Document doc = Jsoup.parse(content, "", Parser.xmlParser());
                             for (Element e : doc.select("DOC")) {
@@ -117,158 +116,54 @@ public class Indexer {
 //                                System.out.println(testElement.getElementsByTag("DOCNO"));
 //                            }
                             // CALL FUNCTION TO PARSE FINANCIAL TIMES DOCUMENTS
-                        }
-                        else if(innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/")+3).equals("fr"))
-                        {
+                        } else if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/") + 3).equals("fr")) {
                             // CALL FUNCTION TO PARSE FEDERAL REGISTER DOCUMENTS
                         }
                     }
-                }
-                else if( (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fb")) ||  (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("ft")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fr")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("la")))
-                {
-                    if(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/")+3).equals("fb"))
-                    {
-                        // CALL FUNCTION TO PARSE FOREIGN BROADCAST DOCUMENTS
-                    }
-                    else if(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/")+3).equals("la"))
-                    {
-                        // CALL FUNCTION TO PARSE LA TIMES DOCUMENTS
+                } else if ((file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fb")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("ft")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fr")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("la"))) {
+                    if (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3).equals("fb")) {
+                        String content = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
+                        Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                        for (Element e : doc.select("DOC")) {
+                            String DOCNO = e.select("DOCNO").toString();
+                            DOCNO = DOCNO.replace("<DOCNO>", "");
+                            DOCNO = DOCNO.replace("</DOCNO>", "");
+                            DOCNO = DOCNO.replace(",", " ");
+                            String title = e.select("H3").toString();
+                            title = title.replace("<H3> <TI>", "");
+                            title = title.replace("</TI></H3>", "");
+                            title = title.replace(",", " ");
+                            title = title.replace("\n", " ");
+                            String text = e.select("TEXT").toString();
+                            text = text.replace("<TEXT>", "");
+                            text = text.replace("</TEXT>", "");
+                            text = text.replace(",", " ");
+                            //text = text.replace("\n", " ");
+                            //System.out.println(DOCNO);
+                            //System.out.println(title);
+                            //System.out.println(text);
+                            fb.write(DOCNO);
+                            fb.write(',');
+                            fb.write(title);
+                            fb.write(',');
+                            fb.write(text);
+                            fb.newLine();
+                        }
+                    else
+                        if (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3).equals("la")) {
+                            // CALL FUNCTION TO PARSE LA TIMES DOCUMENTS
+                        }
+
                     }
 
                 }
+
 
             }
-
+            fw.close();
 
         }
-        fw.close();
-
-
-
-
-
-
-
-
-
-
-        //for(File file : files)
-        //	{
-        //		if(file.isDirectory()){
-        // System.out.println("Directory: " + file.getAbsolutePath());
-        //		File[] filesInsideDirectory = file.listFiles();
-        //		for(File innerFile : filesInsideDirectory){
-        //			System.out.println("File: " + innerFile.getAbsolutePath());
-        //			//ArrayList<ArrayList<String>> fields = this.utils.parseDocuments(innerFile);
-        //			ParsedDocResults parsed = this.utils.parseFinancialTimesDocuments(innerFile);
-        //			ArrayList<ArrayList<String>> fields = parsed.fields;
-        //			int docCount = parsed.docCount;
-
-        // 			config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-        //			Document doc = new Document();
-        //			FieldType type = new FieldType();
-        //			type.setIndexOptions(IndexOptions.DOCS_AND_FREQS);
-        //			type.setStored(true);
-        //			type.setTokenized(true);
-        //			type.setStoreTermVectors(true);
-        //			for(int i = 0; i < docCount; i++){
-        //				for(int j = 0; j < fields.size(); j++){
-        //				switch(j){
-        //					case 0:
-        //doc.add((IndexableField)new TextField("Document_number", ((ArrayList<String>)fields.get(j)).get(i), Field.Store.YES));
-        //					break;
-
-        //					case 1:
-        //doc.add((IndexableField)new Field("Title", ((ArrayList<CharSequence>)fields.get(j)).get(i), (IndexableFieldType)type));
-        //					break;
-
-        //					case 2:
-        //doc.add((IndexableField)new Field("Text", ((ArrayList<CharSequence>)fields.get(j)).get(i), (IndexableFieldType)type));
-        //					break;
-        //				}
-        //				}
-        //			documents.add(doc);
-        //			doc = new Document();
-        //			}
-        //		}
-
-        //		}
-        //	}
-        //	iwriter.addDocuments(documents);
-        //	iwriter.close();
-        //	fsDirectory.close();
-        //	System.out.println("Indexing done \n \n");
-
-        //Files.walk(dir).forEach(path -> {
-        //    if(path.toFile().isDirectory())
-        //    {
-        //        System.out.println("Directory: " + path.toFile.getAbsolutePath());
-        //    }
-        // });
-
-
-
-
-
-
-
-        // To store an index in memory
-        // Directory directory = new RAMDirectory();
-        // To store an index on disk
-        //Directory directory = FSDirectory.open(Paths.get(INDEX_DIRECTORY));
-
-        // Set up an index writer to add process and save documents to the index
-        //IndexWriterConfig config = new IndexWriterConfig(analyzer);
-        //config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-        //IndexWriter iwriter = new IndexWriter(directory, config);
-
-        //ArrayList<Document> documnets = new ArrayList<Document>();
-
-        // Create a new document
-        //Document doc = new Document();
-
-        //Create a custom field type
-        //FieldType type = new FieldType();
-        //type.setIndexOptions(IndexOptions.DOCS_AND_FREQS);
-        //type.setStored(true);
-        //type.setTokenized(true);
-        //type.setStoreTermVectors(true);
-
-        // for (int i = 0; i < 1400; i++) {
-        //         for (int j = 0; j < fields.size(); j++) {
-        //                 //Use switch to get the parsed data under the right heading
-        //                 switch(j) {
-        //                 case 0:
-        //                         doc.add(new TextField("Document_number", fields.get(j).get(i), Field.Store.YES));
-        //                         System.out.print("Indexing Document: ");
-        //                         System.out.print(fields.get(j).get(i));
-        //                         System.out.print("\n");
-        //                         break;
-        //                 case 1:
-        //                         doc.add(new Field("Title", fields.get(j).get(i), type));
-        //                         break;
-        //                 case 2:
-        //                         doc.add(new Field("Author", fields.get(j).get(i), type));
-        //                         break;
-        //                 case 3:
-        //                         doc.add(new Field("Journal", fields.get(j).get(i), type));
-        //                         break;
-        //                 case 4:
-        //                         doc.add(new Field("Text", fields.get(j).get(i), type));
-        //                         break;
-        //                 }
-        //         }
-        //         // Save the document to the index
-        //         documnets.add(doc);
-        //         doc = new Document();
-        // }
-
-        // iwriter.addDocuments(documnets);
-
-        // // Commit changes and close everything
-        // iwriter.close();
-        // directory.close();
-        // System.out.print("Indexing done\n\n");
+        fb.close();
     }
 
 }
