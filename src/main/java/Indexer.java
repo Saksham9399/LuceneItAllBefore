@@ -1,4 +1,4 @@
-import java.io.File;
+import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
@@ -12,7 +12,8 @@ import org.jsoup.parser.Parser;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
-import org.apache.lucene.document.Field;import org.apache.lucene.document.FieldType;
+import org.apache.lucene.document.Field;
+import org.apache.lucene.document.FieldType;
 import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexOptions;
 import org.apache.lucene.index.IndexWriter;
@@ -32,6 +33,7 @@ public class Indexer {
     private static String FEDERAL_REGISTER_DIRECTORY = "corpus/fr94";
     private static String FOREIGN_BROADCAST_INFORMATION_SERVICE_DIRECTORY = "corpus/fbis";
     private static String LA_TIMES_DIRECTORY = "corpus/latimes";
+//    private static String csv = ""
 
     private static String[] directories = {FINANCIAL_TIMES_DIRECTORY, FEDERAL_REGISTER_DIRECTORY, FOREIGN_BROADCAST_INFORMATION_SERVICE_DIRECTORY, LA_TIMES_DIRECTORY};
 
@@ -57,14 +59,25 @@ public class Indexer {
         //ArrayList<ArrayList<String>> fields = utils.parseDocuments(file);
 
         //Path innerDirectory = Paths.get(FINANCIAL_TIMES_DIRECTORY);
+        String filePath = "";
+        String file_fbis = filePath + "fbis.csv";
+        String file_fr = filePath + "fr.csv";
+        String file_ft = filePath + "ft.csv";
+        String file_la = filePath + "la.csv";
+
+        BufferedWriter fw=null;
+        fw = new BufferedWriter(new FileWriter(file_ft,true));
+        String header = "DOCNO,HEADLINE,TEXT";
+        fw.write(header);
+        fw.newLine();
         for(String directory : directories)
         {
             File dir = new File(directory);
             File[] files = dir.listFiles();
+
             for(File file : files)
             {
                 System.out.println(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/")+1, file.getAbsolutePath().lastIndexOf("/")+3));
-
                 if(file.isDirectory())
                 {
                     File[] filesInsideDirectory = file.listFiles();
@@ -74,13 +87,35 @@ public class Indexer {
                         {
                             String content = new String(Files.readAllBytes(Paths.get(innerFile.getAbsolutePath())));
                             Document doc = Jsoup.parse(content, "", Parser.xmlParser());
-                            for (Element e : doc.select("DOCNO")) {
-                                System.out.println(e);
+                            for (Element e : doc.select("DOC")) {
+                                String DOCNO = e.select("DOCNO").toString();
+                                DOCNO = DOCNO.replace("<DOCNO>", "");
+                                DOCNO = DOCNO.replace("</DOCNO>", "");
+                                DOCNO = DOCNO.replace(",", " ");
+                                String HEADLINE = e.select("HEADLINE").toString();
+                                HEADLINE = HEADLINE.replace("<HEADLINE>", "");
+                                HEADLINE = HEADLINE.replace("</HEADLINE>", "");
+                                HEADLINE = HEADLINE.replace(",", " ");
+                                HEADLINE = HEADLINE.replace("\n", " ");
+                                String TEXT = e.select("TEXT").toString();
+                                TEXT = TEXT.replace("<TEXT>", "");
+                                TEXT = TEXT.replace("</TEXT>", "");
+                                TEXT = TEXT.replace(",", " ");
+                                TEXT = TEXT.replace("\n", " ");
+                                System.out.println(DOCNO);
+                                System.out.println(HEADLINE);
+                                System.out.println(TEXT);
+                                fw.write(DOCNO);
+                                fw.write(',');
+                                fw.write(HEADLINE);
+                                fw.write(',');
+                                fw.write(TEXT);
+                                fw.newLine();
                             }
-                            Elements tests = doc.getElementsByTag("DOCNO");
-                            for (Element testElement : tests) {
-                                System.out.println(testElement.getElementsByTag("DOCNO"));
-                            }
+//                            Elements tests = doc.getElementsByTag("DOCNO");
+//                            for (Element testElement : tests) {
+//                                System.out.println(testElement.getElementsByTag("DOCNO"));
+//                            }
                             // CALL FUNCTION TO PARSE FINANCIAL TIMES DOCUMENTS
                         }
                         else if(innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/")+3).equals("fr"))
@@ -106,7 +141,7 @@ public class Indexer {
 
 
         }
-
+        fw.close();
 
 
 
