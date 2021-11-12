@@ -71,9 +71,16 @@ public class Indexer {
         fw.newLine();
 
         BufferedWriter fb = null;
-        fb = new BufferedWriter(new FileWriter(file_fb, true));
+        fb = new BufferedWriter(new FileWriter(file_fbis, true));
         fb.write(header);
         fb.newLine();
+
+        BufferedWriter la = null;
+        la = new BufferedWriter(new FileWriter(file_la, true));
+        la.write(header);
+        la.newLine();
+
+
         for (String directory : directories) {
             File dir = new File(directory);
             File[] files = dir.listFiles();
@@ -149,12 +156,36 @@ public class Indexer {
                             fb.write(text);
                             fb.newLine();
                         }
-                    else
-                        if (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3).equals("la")) {
-                            // CALL FUNCTION TO PARSE LA TIMES DOCUMENTS
+                    }
+                    else if(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3).equals("la")){
+                        String content = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
+                        Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                        for (Element e : doc.select("DOC")) {
+                            String DOCNO = e.select("DOCNO").toString();
+                            DOCNO = DOCNO.replace("<DOCNO>", "");
+                            DOCNO = DOCNO.replace("</DOCNO>", "");
+                            DOCNO = DOCNO.replace(",", "");
+                            String HEADLINE = e.select("HEADLINE").text();
+                            String BYLINE =e.select("BYLINE").text();
+                            String title = String.format("%s%s",HEADLINE,BYLINE);
+                            title = title.replace(",","");
+                            if (title.isEmpty()){
+                                title = e.select("GRAPHIC").text();
+                                title = title.replace(",","");
+                            }
+                            String text = e.select("TEXT").text();
+                            text = text.replace(",", " ");
+                            la.write(DOCNO);
+                            la.write(',');
+                            la.write(title);
+                            la.write(',');
+                            la.write(text);
+                            la.write(',');
+                            la.newLine();
+
                         }
 
-                    }
+                        }
 
                 }
 
@@ -164,6 +195,7 @@ public class Indexer {
 
         }
         fb.close();
+        la.close();
     }
 
 }
