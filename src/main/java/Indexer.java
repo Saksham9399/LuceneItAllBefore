@@ -81,6 +81,13 @@ public class Indexer {
         la.newLine();
 
 
+
+        BufferedWriter fr = null;
+        fr = new BufferedWriter(new FileWriter(file_fr, true));
+        fr.write(header);
+        fr.newLine();
+
+
         for (String directory : directories) {
             File dir = new File(directory);
             File[] files = dir.listFiles();
@@ -108,9 +115,9 @@ public class Indexer {
                                 TEXT = TEXT.replace("</TEXT>", "");
                                 TEXT = TEXT.replace(",", " ");
                                 TEXT = TEXT.replace("\n", " ");
-                                System.out.println(DOCNO);
-                                System.out.println(HEADLINE);
-                                System.out.println(TEXT);
+                                // System.out.println(DOCNO);
+                                // System.out.println(HEADLINE);
+                                // System.out.println(TEXT);
                                 fw.write(DOCNO);
                                 fw.write(',');
                                 fw.write(HEADLINE);
@@ -125,6 +132,37 @@ public class Indexer {
                             // CALL FUNCTION TO PARSE FINANCIAL TIMES DOCUMENTS
                         } else if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/") + 3).equals("fr")) {
                             // CALL FUNCTION TO PARSE FEDERAL REGISTER DOCUMENTS
+                            String content = new String(Files.readAllBytes(Paths.get(innerFile.getAbsolutePath())));
+                            Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                            for (Element e : doc.select("DOC")) {
+                                String DOCNO = e.select("PARENT").toString();
+                                DOCNO = DOCNO.replace("<PARENT>", "");
+                                DOCNO = DOCNO.replace("</PARENT>", "");
+                                DOCNO = DOCNO.replace(",", " ");
+                                
+                                String TITLE = e.select("DOCTITLE").toString();
+                                TITLE = TITLE.replace("<DOCTITLE>", "");
+                                TITLE = TITLE.replace("</DOCTITLE>", "");
+                                TITLE = TITLE.replace(",", " ");
+                                TITLE = TITLE.replace("\n", " ");
+
+                                String TEXT = e.select("TEXT").toString();
+                                TEXT = TEXT.replace("<TEXT>", "");
+                                TEXT = TEXT.replace("</TEXT>", "");
+                                TEXT = TEXT.replace(",", " ");
+                                TEXT = TEXT.replace("&blank;", " ");
+                                TEXT = TEXT.replace("/&blank;", " ");
+                                TEXT = TEXT.replace("\n", " ");
+                                // System.out.println(DOCNO);
+                                // System.out.println(TITLE);
+                                // System.out.println(TEXT);
+                                fr.write(DOCNO);
+                                fr.write(',');
+                                fr.write(TITLE);
+                                fr.write(',');
+                                fr.write(TEXT);
+                                fr.newLine();
+                            }
                         }
                     }
                 } else if ((file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fb")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("ft")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fr")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("la"))) {
@@ -191,11 +229,14 @@ public class Indexer {
 
 
             }
+
             fw.close();
 
         }
         fb.close();
         la.close();
+        fr.close();
+
     }
 
 }
