@@ -128,12 +128,7 @@ public class Indexer {
 //                                fw.write(',');
 //                                fw.write(TEXT);
 //                                fw.newLine()
-                                if(HEADLINE == null){
-                                    HEADLINE = "null";
-                                }
-                                if(TEXT == null){
-                                    TEXT ="null";
-                                }
+//
                                 add(indexWriter, DOCNO, HEADLINE, TEXT);
                             }
 //                            Elements tests = doc.getElementsByTag("DOCNO");
@@ -173,12 +168,7 @@ public class Indexer {
 //                                fr.write(',');
 //                                fr.write(TEXT);
 //                                fr.newLine();
-                                if(TITLE == null){
-                                    TITLE = "null";
-                                }
-                                if(TEXT == null){
-                                    TEXT ="null";
-                                }
+//
                                 add(indexWriter, DOCNO, TITLE, TEXT);
                             }
                         }
@@ -211,12 +201,7 @@ public class Indexer {
 //                            fb.write(',');
 //                            fb.write(text);
 //                            fb.newLine();
-                            if(title == null){
-                                title = "null";
-                            }
-                            if(text == null){
-                                text ="null";
-                            }
+//
                             add(indexWriter, DOCNO, title, text);
                         }
                     }
@@ -244,12 +229,7 @@ public class Indexer {
 //                            la.write(',');
 //                            la.write(text);
 //                            la.newLine();
-                            if(title == null){
-                                title = "null";
-                            }
-                            if(text == null){
-                                text ="null";
-                            }
+//
                             add(indexWriter, DOCNO, title, text);
                         }
 
