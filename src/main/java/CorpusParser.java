@@ -25,7 +25,7 @@ import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
-public class Indexer {
+public class CorpusParser {
 
     // Directory where the search index will be saved
     private static String INDEX_DIRECTORY = "index";
@@ -39,7 +39,7 @@ public class Indexer {
 
 
     //private Utils utils = new Utils();
-    public void makeIndex() throws Exception {
+    public void parseIndex() throws Exception {
 
         //String currentDirectory = System.getProperty("user.dir");
         //System.out.println("The current working directory is " + currentDirectory);
@@ -71,19 +71,32 @@ public class Indexer {
         fw.newLine();
 
         BufferedWriter fb = null;
-        fb = new BufferedWriter(new FileWriter(file_fb, true));
+        fb = new BufferedWriter(new FileWriter(file_fbis, true));
         fb.write(header);
         fb.newLine();
+
+        BufferedWriter la = null;
+        la = new BufferedWriter(new FileWriter(file_la, true));
+        la.write(header);
+        la.newLine();
+
+        BufferedWriter fr = null;
+        fr = new BufferedWriter(new FileWriter(file_fr, true));
+        fr.write(header);
+        fr.newLine();
+
+
         for (String directory : directories) {
             File dir = new File(directory);
             File[] files = dir.listFiles();
 
             for (File file : files) {
-                System.out.println(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3));
+                System.out.println(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("\\") + 1, file.getAbsolutePath().lastIndexOf("\\") + 3));
                 if (file.isDirectory()) {
                     File[] filesInsideDirectory = file.listFiles();
                     for (File innerFile : filesInsideDirectory) {
-                        if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/") + 3).equals("ft")) {
+                        if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("\\") + 1, innerFile.getAbsolutePath().lastIndexOf("\\") + 3).equals("ft")) {
+                            //FINANCIAL TIMES
                             String content = new String(Files.readAllBytes(Paths.get(innerFile.getAbsolutePath())));
                             Document doc = Jsoup.parse(content, "", Parser.xmlParser());
                             for (Element e : doc.select("DOC")) {
@@ -101,9 +114,10 @@ public class Indexer {
                                 TEXT = TEXT.replace("</TEXT>", "");
                                 TEXT = TEXT.replace(",", " ");
                                 TEXT = TEXT.replace("\n", " ");
-                                System.out.println(DOCNO);
-                                System.out.println(HEADLINE);
-                                System.out.println(TEXT);
+                                TEXT = TEXT.replace("\r", " ");
+                                // System.out.println(DOCNO);
+                                // System.out.println(HEADLINE);
+                                // System.out.println(TEXT);
                                 fw.write(DOCNO);
                                 fw.write(',');
                                 fw.write(HEADLINE);
@@ -116,12 +130,45 @@ public class Indexer {
 //                                System.out.println(testElement.getElementsByTag("DOCNO"));
 //                            }
                             // CALL FUNCTION TO PARSE FINANCIAL TIMES DOCUMENTS
-                        } else if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/") + 3).equals("fr")) {
+                        } else if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("\\") + 1, innerFile.getAbsolutePath().lastIndexOf("\\") + 3).equals("fr")) {
                             // CALL FUNCTION TO PARSE FEDERAL REGISTER DOCUMENTS
+                            String content = new String(Files.readAllBytes(Paths.get(innerFile.getAbsolutePath())));
+                            Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                            for (Element e : doc.select("DOC")) {
+                                String DOCNO = e.select("PARENT").toString();
+                                DOCNO = DOCNO.replace("<PARENT>", "");
+                                DOCNO = DOCNO.replace("</PARENT>", "");
+                                DOCNO = DOCNO.replace(",", " ");
+
+                                String TITLE = e.select("DOCTITLE").toString();
+                                TITLE = TITLE.replace("<DOCTITLE>", "");
+                                TITLE = TITLE.replace("</DOCTITLE>", "");
+                                TITLE = TITLE.replace(",", " ");
+                                TITLE = TITLE.replace("\n", " ");
+
+                                String TEXT = e.select("TEXT").toString();
+                                TEXT = TEXT.replace("<TEXT>", "");
+                                TEXT = TEXT.replace("</TEXT>", "");
+                                TEXT = TEXT.replace(",", " ");
+                                TEXT = TEXT.replace("&blank;", " ");
+                                TEXT = TEXT.replace("/&blank;", " ");
+                                TEXT = TEXT.replace("\n", " ");
+                                TEXT = TEXT.replace("\r", " ");
+                                // System.out.println(DOCNO);
+                                // System.out.println(TITLE);
+                                // System.out.println(TEXT);
+                                fr.write(DOCNO);
+                                fr.write(',');
+                                fr.write(TITLE);
+                                fr.write(',');
+                                fr.write(TEXT);
+                                fr.newLine();
+                            }
                         }
                     }
-                } else if ((file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fb")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("ft")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fr")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("la"))) {
-                    if (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3).equals("fb")) {
+                } else if ((file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("\\") + 1, (file.getAbsolutePath().lastIndexOf("\\") + 3)).equals("fb")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("\\") + 1, (file.getAbsolutePath().lastIndexOf("\\") + 3)).equals("ft")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("\\") + 1, (file.getAbsolutePath().lastIndexOf("\\") + 3)).equals("fr")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("\\") + 1, (file.getAbsolutePath().lastIndexOf("\\") + 3)).equals("la"))) {
+                    if (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("\\") + 1, file.getAbsolutePath().lastIndexOf("\\") + 3).equals("fb")) {
+                        //FOREIGN BROADCAST
                         String content = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
                         Document doc = Jsoup.parse(content, "", Parser.xmlParser());
                         for (Element e : doc.select("DOC")) {
@@ -138,7 +185,8 @@ public class Indexer {
                             text = text.replace("<TEXT>", "");
                             text = text.replace("</TEXT>", "");
                             text = text.replace(",", " ");
-                            //text = text.replace("\n", " ");
+                            text = text.replace("\n", " ");
+                            text = text.replace("\r", " ");
                             //System.out.println(DOCNO);
                             //System.out.println(title);
                             //System.out.println(text);
@@ -149,9 +197,38 @@ public class Indexer {
                             fb.write(text);
                             fb.newLine();
                         }
-                    else
-                        if (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3).equals("la")) {
-                            // CALL FUNCTION TO PARSE LA TIMES DOCUMENTS
+                    }
+                    else if(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("\\") + 1, file.getAbsolutePath().lastIndexOf("\\") + 3).equals("la")){
+                        //LA TIMES
+                        String content = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
+                        Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                        for (Element e : doc.select("DOC")) {
+                            String DOCNO = e.select("DOCNO").toString();
+                            DOCNO = DOCNO.replace("<DOCNO>", "");
+                            DOCNO = DOCNO.replace("</DOCNO>", "");
+                            DOCNO = DOCNO.replace(",", "");
+                            String HEADLINE = e.select("HEADLINE").text();
+                            String BYLINE =e.select("BYLINE").text();
+                            String title = String.format("%s%s",HEADLINE,BYLINE);
+                            title = title.replace(",","");
+                            if (title.isEmpty()){
+                                title = e.select("GRAPHIC").text();
+                                title = title.replace(",","");
+                            }
+                            String text = e.select("TEXT").text();
+                            text = text.replace(",", " ");
+                            text = text.replace("\n", " ");
+                            text = text.replace("\r", " ");
+
+                            if(text.length() == 0) text = title;
+                            la.write(DOCNO);
+                            la.write(',');
+                            la.write(title);
+                            la.write(',');
+                            la.write(text);
+                            la.write(',');
+                            la.newLine();
+
                         }
 
                     }
@@ -160,10 +237,14 @@ public class Indexer {
 
 
             }
+
             fw.close();
 
         }
         fb.close();
+        la.close();
+        fr.close();
+
     }
 
 }
