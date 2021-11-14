@@ -4,6 +4,7 @@ import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.util.ArrayList;
 
+import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.document.StringField;
@@ -25,6 +26,7 @@ import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
+import org.apache.lucene.search.similarities.BM25Similarity;
 
 public class Indexer {
 
@@ -61,8 +63,9 @@ public class Indexer {
 
         //Path innerDirectory = Paths.get(FINANCIAL_TIMES_DIRECTORY);
 
-        Analyzer analyzer = new StandardAnalyzer();
+        Analyzer analyzer = new EnglishAnalyzer();
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
+        config.setSimilarity(new BM25Similarity());
         config.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
         Directory indexDirectory = FSDirectory.open(Paths.get("./Index"));
         IndexWriter indexWriter = new IndexWriter(indexDirectory, config);
