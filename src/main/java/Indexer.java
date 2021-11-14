@@ -21,6 +21,7 @@ import org.apache.lucene.index.IndexWriter;
 //import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexableField;
 import org.apache.lucene.index.IndexableFieldType;
+import org.apache.lucene.search.similarities.BM25Similarity;
 import org.apache.lucene.index.IndexWriterConfig;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
@@ -63,6 +64,7 @@ public class Indexer {
 
         Analyzer analyzer = new StandardAnalyzer();
         IndexWriterConfig config = new IndexWriterConfig(analyzer);
+        config.setSimilarity(new BM25Similarity());
         config.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
         Directory indexDirectory = FSDirectory.open(Paths.get("./Index"));
         IndexWriter indexWriter = new IndexWriter(indexDirectory, config);
@@ -249,10 +251,10 @@ public class Indexer {
 
     }
 
-    private void add(IndexWriter indexWriter, String DOCNO, String tittle, String text) throws Exception{
+    private void add(IndexWriter indexWriter, String DOCNO, String title, String text) throws Exception{
         Document document = new Document();
         document.add(new TextField("DOCNO", DOCNO, Field.Store.YES));
-        document.add(new TextField("tittle", tittle, Field.Store.YES));
+        document.add(new TextField("title", title, Field.Store.YES));
         document.add(new TextField("text", text, Field.Store.YES));
         indexWriter.addDocument(document);
         docnum++;
