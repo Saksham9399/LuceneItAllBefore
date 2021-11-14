@@ -3,18 +3,19 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.util.ArrayList;
+
+import org.apache.lucene.document.Document;
+import org.apache.lucene.document.Field;
+import org.apache.lucene.document.StringField;
+import org.apache.lucene.document.TextField;
 import org.jsoup.Jsoup;
 import org.jsoup.helper.Validate;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.jsoup.parser.Parser;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
-import org.apache.lucene.document.Field;
-import org.apache.lucene.document.FieldType;
-import org.apache.lucene.document.TextField;
 import org.apache.lucene.index.IndexOptions;
 import org.apache.lucene.index.IndexWriter;
 //import org.apache.lucene.document.Document;
@@ -37,6 +38,7 @@ public class Indexer {
 
     private static String[] directories = {FINANCIAL_TIMES_DIRECTORY, FEDERAL_REGISTER_DIRECTORY, FOREIGN_BROADCAST_INFORMATION_SERVICE_DIRECTORY, LA_TIMES_DIRECTORY};
 
+    public int docnum = 0;
 
     //private Utils utils = new Utils();
     public void makeIndex() throws Exception {
@@ -58,34 +60,39 @@ public class Indexer {
         //ArrayList<ArrayList<String>> fields = utils.parseDocuments(file);
 
         //Path innerDirectory = Paths.get(FINANCIAL_TIMES_DIRECTORY);
-        String filePath = "";
-        String file_fbis = filePath + "fbis.csv";
-        String file_fr = filePath + "fr.csv";
-        String file_ft = filePath + "ft.csv";
-        String file_la = filePath + "la.csv";
 
-        BufferedWriter fw = null;
-        fw = new BufferedWriter(new FileWriter(file_ft, true));
-        String header = "DOCNO,HEADLINE,TEXT";
-        fw.write(header);
-        fw.newLine();
+        Analyzer analyzer = new StandardAnalyzer();
+        IndexWriterConfig config = new IndexWriterConfig(analyzer);
+        config.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
+        Directory indexDirectory = FSDirectory.open(Paths.get("./Index"));
+        IndexWriter indexWriter = new IndexWriter(indexDirectory, config);
 
-        BufferedWriter fb = null;
-        fb = new BufferedWriter(new FileWriter(file_fbis, true));
-        fb.write(header);
-        fb.newLine();
-
-        BufferedWriter la = null;
-        la = new BufferedWriter(new FileWriter(file_la, true));
-        la.write(header);
-        la.newLine();
-
-
-
-        BufferedWriter fr = null;
-        fr = new BufferedWriter(new FileWriter(file_fr, true));
-        fr.write(header);
-        fr.newLine();
+//        String filePath = "";
+//        String file_fbis = filePath + "fbis.csv";
+//        String file_fr = filePath + "fr.csv";
+//        String file_ft = filePath + "ft.csv";
+//        String file_la = filePath + "la.csv";
+//
+//        BufferedWriter fw = null;
+//        fw = new BufferedWriter(new FileWriter(file_ft, true));
+//        String header = "DOCNO,HEADLINE,TEXT";
+//        fw.write(header);
+//        fw.newLine();
+//
+//        BufferedWriter fb = null;
+//        fb = new BufferedWriter(new FileWriter(file_fbis, true));
+//        fb.write(header);
+//        fb.newLine();
+//
+//        BufferedWriter la = null;
+//        la = new BufferedWriter(new FileWriter(file_la, true));
+//        la.write(header);
+//        la.newLine();
+//
+//        BufferedWriter fr = null;
+//        fr = new BufferedWriter(new FileWriter(file_fr, true));
+//        fr.write(header);
+//        fr.newLine();
 
 
         for (String directory : directories) {
@@ -99,7 +106,7 @@ public class Indexer {
                     for (File innerFile : filesInsideDirectory) {
                         if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/") + 3).equals("ft")) {
                             String content = new String(Files.readAllBytes(Paths.get(innerFile.getAbsolutePath())));
-                            Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                            org.jsoup.nodes.Document doc = Jsoup.parse(content, "", Parser.xmlParser());
                             for (Element e : doc.select("DOC")) {
                                 String DOCNO = e.select("DOCNO").toString();
                                 DOCNO = DOCNO.replace("<DOCNO>", "");
@@ -115,15 +122,14 @@ public class Indexer {
                                 TEXT = TEXT.replace("</TEXT>", "");
                                 TEXT = TEXT.replace(",", " ");
                                 TEXT = TEXT.replace("\n", " ");
-                                // System.out.println(DOCNO);
-                                // System.out.println(HEADLINE);
-                                // System.out.println(TEXT);
-                                fw.write(DOCNO);
-                                fw.write(',');
-                                fw.write(HEADLINE);
-                                fw.write(',');
-                                fw.write(TEXT);
-                                fw.newLine();
+//                                fw.write(DOCNO);
+//                                fw.write(',');
+//                                fw.write(HEADLINE);
+//                                fw.write(',');
+//                                fw.write(TEXT);
+//                                fw.newLine()
+//
+                                add(indexWriter, DOCNO, HEADLINE, TEXT);
                             }
 //                            Elements tests = doc.getElementsByTag("DOCNO");
 //                            for (Element testElement : tests) {
@@ -133,13 +139,13 @@ public class Indexer {
                         } else if (innerFile.getAbsolutePath().substring(innerFile.getAbsolutePath().lastIndexOf("/") + 1, innerFile.getAbsolutePath().lastIndexOf("/") + 3).equals("fr")) {
                             // CALL FUNCTION TO PARSE FEDERAL REGISTER DOCUMENTS
                             String content = new String(Files.readAllBytes(Paths.get(innerFile.getAbsolutePath())));
-                            Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                            org.jsoup.nodes.Document doc = Jsoup.parse(content, "", Parser.xmlParser());
                             for (Element e : doc.select("DOC")) {
                                 String DOCNO = e.select("PARENT").toString();
                                 DOCNO = DOCNO.replace("<PARENT>", "");
                                 DOCNO = DOCNO.replace("</PARENT>", "");
                                 DOCNO = DOCNO.replace(",", " ");
-                                
+
                                 String TITLE = e.select("DOCTITLE").toString();
                                 TITLE = TITLE.replace("<DOCTITLE>", "");
                                 TITLE = TITLE.replace("</DOCTITLE>", "");
@@ -156,19 +162,21 @@ public class Indexer {
                                 // System.out.println(DOCNO);
                                 // System.out.println(TITLE);
                                 // System.out.println(TEXT);
-                                fr.write(DOCNO);
-                                fr.write(',');
-                                fr.write(TITLE);
-                                fr.write(',');
-                                fr.write(TEXT);
-                                fr.newLine();
+//                                fr.write(DOCNO);
+//                                fr.write(',');
+//                                fr.write(TITLE);
+//                                fr.write(',');
+//                                fr.write(TEXT);
+//                                fr.newLine();
+//
+                                add(indexWriter, DOCNO, TITLE, TEXT);
                             }
                         }
                     }
                 } else if ((file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fb")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("ft")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("fr")) || (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, (file.getAbsolutePath().lastIndexOf("/") + 3)).equals("la"))) {
                     if (file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3).equals("fb")) {
                         String content = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
-                        Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                        org.jsoup.nodes.Document doc = Jsoup.parse(content, "", Parser.xmlParser());
                         for (Element e : doc.select("DOC")) {
                             String DOCNO = e.select("DOCNO").toString();
                             DOCNO = DOCNO.replace("<DOCNO>", "");
@@ -187,17 +195,19 @@ public class Indexer {
                             //System.out.println(DOCNO);
                             //System.out.println(title);
                             //System.out.println(text);
-                            fb.write(DOCNO);
-                            fb.write(',');
-                            fb.write(title);
-                            fb.write(',');
-                            fb.write(text);
-                            fb.newLine();
+//                            fb.write(DOCNO);
+//                            fb.write(',');
+//                            fb.write(title);
+//                            fb.write(',');
+//                            fb.write(text);
+//                            fb.newLine();
+//
+                            add(indexWriter, DOCNO, title, text);
                         }
                     }
                     else if(file.getAbsolutePath().substring(file.getAbsolutePath().lastIndexOf("/") + 1, file.getAbsolutePath().lastIndexOf("/") + 3).equals("la")){
                         String content = new String(Files.readAllBytes(Paths.get(file.getAbsolutePath())));
-                        Document doc = Jsoup.parse(content, "", Parser.xmlParser());
+                        org.jsoup.nodes.Document doc = Jsoup.parse(content, "", Parser.xmlParser());
                         for (Element e : doc.select("DOC")) {
                             String DOCNO = e.select("DOCNO").toString();
                             DOCNO = DOCNO.replace("<DOCNO>", "");
@@ -213,30 +223,39 @@ public class Indexer {
                             }
                             String text = e.select("TEXT").text();
                             text = text.replace(",", " ");
-                            la.write(DOCNO);
-                            la.write(',');
-                            la.write(title);
-                            la.write(',');
-                            la.write(text);
-                            la.write(',');
-                            la.newLine();
-
+//                            la.write(DOCNO);
+//                            la.write(',');
+//                            la.write(title);
+//                            la.write(',');
+//                            la.write(text);
+//                            la.newLine();
+//
+                            add(indexWriter, DOCNO, title, text);
                         }
 
-                        }
+                    }
 
                 }
 
 
             }
 
-            fw.close();
-
         }
-        fb.close();
-        la.close();
-        fr.close();
+//        fb.close();
+//        la.close();
+//        fr.close();
+//        fw.close();
+        indexWriter.close();
 
     }
 
+    private void add(IndexWriter indexWriter, String DOCNO, String tittle, String text) throws Exception{
+        Document document = new Document();
+        document.add(new TextField("DOCNO", DOCNO, Field.Store.YES));
+        document.add(new TextField("tittle", tittle, Field.Store.YES));
+        document.add(new TextField("text", text, Field.Store.YES));
+        indexWriter.addDocument(document);
+        docnum++;
+        System.out.println(docnum);
+    }
 }
