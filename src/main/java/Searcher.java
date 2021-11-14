@@ -32,7 +32,7 @@ import org.jsoup.select.Elements;
 public class Searcher {
 
     private static String RESULTS_PATH="results.txt";
-    private static String INDEX="index";
+    private static String INDEX="Index";
     private static String QUERY_PATH ="query/topics";
 
     public void main() throws Exception {
