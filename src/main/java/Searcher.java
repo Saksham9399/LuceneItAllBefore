@@ -3,9 +3,13 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.io.PrintWriter;
+
+import org.apache.lucene.analysis.core.StopAnalyzer;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -28,6 +32,8 @@ import org.apache.lucene.search.similarities.*;
 import org.apache.lucene.store.FSDirectory;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.junit.Test;
+
 
 public class Searcher {
 
@@ -35,6 +41,7 @@ public class Searcher {
     private static String INDEX="Index";
     private static String QUERY_PATH ="query/topics";
 
+    @Test
     public void main() throws Exception {
         org.jsoup.nodes.Document jsoupDoc = Jsoup.parse(new File(QUERY_PATH), "UTF-8", "");
 
@@ -51,7 +58,9 @@ public class Searcher {
 
         //Analyzer analyzer = new SimpleAnalyzer();
         //Analyzer analyzer = new WhitespaceAnalyzer();;
-        Analyzer analyzer = new EnglishAnalyzer();
+//        Analyzer analyzer = new EnglishAnalyzer();
+        String[] StopWords =  {"a", "about", "above", "after", "again", "against", "ain", "all", "am", "an", "and", "any", "are", "aren", "aren't", "as", "at", "be", "because", "been", "before", "being", "below", "between", "both", "but", "by", "can", "couldn", "couldn't", "d", "did", "didn", "didn't", "do", "does", "doesn", "doesn't", "doing", "don", "don't", "down", "during", "each", "few", "for", "from", "further", "had", "hadn", "hadn't", "has", "hasn", "hasn't", "have", "haven", "haven't", "having", "he", "her", "here", "hers", "herself", "him", "himself", "his", "how", "i", "if", "in", "into", "is", "isn", "isn't", "it", "it's", "its", "itself", "just", "ll", "m", "ma", "me", "mightn", "mightn't", "more", "most", "mustn", "mustn't", "my", "myself", "needn", "needn't", "no", "nor", "not", "now", "o", "of", "off", "on", "once", "only", "or", "other", "our", "ours", "ourselves", "out", "over", "own", "re", "s", "same", "shan", "shan't", "she", "she's", "should", "should've", "shouldn", "shouldn't", "so", "some", "such", "t", "than", "that", "that'll", "the", "their", "theirs", "them", "themselves", "then", "there", "these", "they", "this", "those", "through", "to", "too", "under", "until", "up", "ve", "very", "was", "wasn", "wasn't", "we", "were", "weren", "weren't", "what", "when", "where", "which", "while", "who", "whom", "why", "will", "with", "won", "won't", "wouldn", "wouldn't", "y", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves", "could", "he'd", "he'll", "he's", "here's", "how's", "i'd", "i'll", "i'm", "i've", "let's", "ought", "she'd", "she'll", "that's", "there's", "they'd", "they'll", "they're", "they've", "we'd", "we'll", "we're", "we've", "what's", "when's", "where's", "who's", "why's", "would"};
+        Analyzer analyzer = new MyCustomerAnalyzer.MyStopAnalyzer(StopWords);
 
         PrintWriter writer = new PrintWriter(RESULTS_PATH, "UTF-8");
 
@@ -61,8 +70,10 @@ public class Searcher {
         //Classic Similarity
         //searcher.setSimilarity(new ClassicSimilarity());
 
-
-        MultiFieldQueryParser parser = new MultiFieldQueryParser(new String[]{"title", "DOCNO", "text"}, analyzer);
+        Map<String, Float> boosts = new HashMap<>();
+        boosts.put("title", 0.1F);
+        boosts.put("text", 0.9F);
+        QueryParser parser = new MultiFieldQueryParser(new String[]{"DOCNO","title", "text"}, analyzer,boosts);
 
         System.out.println("Reading the queries and creating results");
 
@@ -105,12 +116,12 @@ public class Searcher {
 
     public static void search(IndexSearcher searcher, PrintWriter writer,String num, Query query) throws IOException {
 
-        TopDocs results = searcher.search(query, 1000);
+        TopDocs results = searcher.search(query, 2000);
         ScoreDoc[] hits = results.scoreDocs;
 
         for (int i = 0; i < hits.length; i++) {
             ScoreDoc hit = hits[i];
-            writer.println(num + " 0 " + searcher.doc(hit.doc).get("DOCNO") + " " + i + " " + hits[i].score);
+            writer.println(num + " Q0 " + searcher.doc(hit.doc).get("DOCNO") + " " + i + " " + hits[i].score + " STANDARD");
         }
     }
 }
