@@ -98,520 +98,520 @@ ask, beg, crave, entreat, petition, request, solicit, beseech, demand, implore, 
 associate, accomplice, coadjutor, comrade, fellow, mate, ally, colleague, confederate, friend, partner, chum, companion, consort, helpmate, peer
 association, alliance, confederacy, familiarity, lodge, club, confederation, federation, participation, community, conjunction, fellowship, partnership, companionship, connection, fraternity, society, company, corporation, friendship, union
 assume, accept, arrogate, postulate, put on, affect, claim, presume, take, appropriate, feign, pretend, usurp
-assurance, arrogance, boldness, impudence, self-confidence, assertion, confidence, presumption, self-reliance, assumption, effrontery, self-assertion, trust"
-astute, acute, discerning, penetrating, sharp, clear-sighted, discriminating, penetrative, shrewd, crafty, keen, perspicacious, subtile, cunning, knowing, sagacious, subtle"
-attachment, adherence, devotion, friendship, regard, adhesion, esteem, inclination, tenderness, affection, estimation, love, union"
-attack, assail, beset, combat, invade, assault, besiege, encounter, set upon, beleaguer, charge, fall upon, storm"
-attack, aggression, incursion, invasion, onslaught, assault, infringement, onset, trespass, encroachment, intrusion"
-attain, accomplish, arrive at, gain, master, reach, achieve, compass, get, obtain, secure, acquire, earn, grasp, procure, win"
-attitude, pose, position, posture"
-attribute, ascribe, associate, connect, impute, refer, assign, charge"
+assurance, arrogance, boldness, impudence, self-confidence, assertion, confidence, presumption, self-reliance, assumption, effrontery, self-assertion, trust
+astute, acute, discerning, penetrating, sharp, clear-sighted, discriminating, penetrative, shrewd, crafty, keen, perspicacious, subtile, cunning, knowing, sagacious, subtle
+attachment, adherence, devotion, friendship, regard, adhesion, esteem, inclination, tenderness, affection, estimation, love, union
+attack, assail, beset, combat, invade, assault, besiege, encounter, set upon, beleaguer, charge, fall upon, storm
+attack, aggression, incursion, invasion, onslaught, assault, infringement, onset, trespass, encroachment, intrusion
+attain, accomplish, arrive at, gain, master, reach, achieve, compass, get, obtain, secure, acquire, earn, grasp, procure, win
+attitude, pose, position, posture
+attribute, ascribe, associate, connect, impute, refer, assign, charge
 attribute, property, quality"
-augur, betoken, divine, foretell, predict, prognosticate, bode, forebode, portend, presage, prophesy"
-authentic, accepted, certain, original, sure, accredited, current, real, true, authoritative, genuine, received, trustworthy, authorized, legitimate, reliable, veritable"
-auxiliary, accessory, ally, coadjutor, helper, promoter, aid, assistant, confederate, mercenary, subordinate"
-avaricious, close, greedy, niggardly, penurious, sordid, covetous, miserly, parsimonious, rapacious, stingy"
-avenge, punish, retaliate, revenge, vindicate, visit"
-avow, knowledge, aver, confess, own, profess, testify, admit, avouch, declare, proclaim, protest, witness"
-awful, alarming, direful, frightful, majestic, solemn, appalling, dread, grand, noble, stately, august, dreadful, horrible, portentous, terrible, dire, fearful, imposing, shocking, terrific"
+augur, betoken, divine, foretell, predict, prognosticate, bode, forebode, portend, presage, prophesy
+authentic, accepted, certain, original, sure, accredited, current, real, true, authoritative, genuine, received, trustworthy, authorized, legitimate, reliable, veritable
+auxiliary, accessory, ally, coadjutor, helper, promoter, aid, assistant, confederate, mercenary, subordinate
+avaricious, close, greedy, niggardly, penurious, sordid, covetous, miserly, parsimonious, rapacious, stingy
+avenge, punish, retaliate, revenge, vindicate, visit
+avow, knowledge, aver, confess, own, profess, testify, admit, avouch, declare, proclaim, protest, witness
+awful, alarming, direful, frightful, majestic, solemn, appalling, dread, grand, noble, stately, august, dreadful, horrible, portentous, terrible, dire, fearful, imposing, shocking, terrific
 awkward, boorish, clumsy, rough, unhandy, bungling, gawky, uncouth, unskilful, clownish, maladroit, ungainly
-babble, blab, cackle, gabble, murmur, prattle, blurt, chat, gossip, palaver, tattle, blurt out, chatter, jabber, prate, twaddle"
-banish, ban, dismiss, evict, expatriate, ostracize, discharge, drive out, exile, expel, oust, dislodge, eject"
-bank, beach, bound, brink, edge, margin, shore, border, brim, coast, marge, rim, strand"
-banter, badinage, derision, jeering, raillery, sarcasm, chaff, irony, mockery, ridicule, satire"
-barbarous, atrocious, brutal, merciless, uncivilized, barbarian, cruel, rude, uncouth, barbaric, inhuman, savage, untamed"
-barrier, bar, bulwark, obstruction, rampart, barricade, hindrance, parapet, restraint, breastwork, obstacle, prohibition, restriction"
-battle, action, combat, encounter, passage of arms, affair, conflict, engagement, skirmish, bout, contest, fight, strife"
-beat, bastinado, chastise, overcome, spank, thrash, batter, conquer, pommel, strike, vanquish, belabor, cudgel, pound, surpass, whip, bruise, defeat, scourge, switch, worst, castigate, flog, smite"
-beautiful, attractive, charming, exquisite, handsome, beauteous, comely, fair, lovely, bewitching, delightful, fine, picturesque, bonny, elegant, graceful, pretty"
-because, as, for, inasmuch as, since"
-becoming, befitting, congruous, fit, meet, seemly, beseeming, decent, fitting, neat, suitable, comely, decorous, graceful, proper, worthy"
-beginning, arising, inauguration, origin, source, commencement, inception, outset, spring, fount, initiation, rise, start, fountain, opening"
-behavior, action, breeding, conduct, deportment, manner, bearing, carriage, demeanor, life, manners"
-bend, bias, curve, diverge, mold, submit, twist, bow, deflect, incline, persuade, turn, warp, crook, deviate, influence, stoop, twine, yield"
-benevolence, almsgiving, charity, kind-heartedness, munificence, beneficence, generosity, kindliness, philanthropy, benignity, good-will, kindness, sympathy, bounty, humanity, liberality, unselfishness"
-bind, compel, fetter, oblige, restrict, shackle, engage, fix, restrain, secure, tie, fasten"
-bitter, acerb, acidulous, caustic, pungent, stinging, acetous, acrid, cutting, savage, tart, acid, acrimonious, harsh, sharp, vinegarish, acidulated, biting, irate, sour, virulent"
-bleach, blanch, make white, whiten, whitewash"
-blemish, blot, defacement, disgrace, injury, spot, blur, defect, dishonor, reproach, stain, brand, deformity, fault, smirch, stigma, crack, dent, flaw, soil, taint, daub, disfigurement, imperfection, speck, tarnish"
-blow, box, concussion, disaster, misfortune, stripe, buffet, cuff, knock, rap, stroke, calamity, cut, lash, shock, thump"
-bluff, abrupt, brusk, impolite, rough, blunt, coarse, inconsiderate, rude, blustering, discourteous, open, uncivil, bold, frank, plain-spoken, unmannerly"
-body, ashes, clay, dust, frame, system, carcass, corpse, form, remains, trunk"
-both, twain, two"
-boundary, barrier, confines, limit, margin, border, edge, line, term, bound, enclosure, marches, termination, bourn, frontier, marge, verge, bourne, landmark"
-brave, adventurous, courageous, fearless, undaunted, bold, daring, gallant, undismayed, chivalric, dauntless, heroic, valiant, chivalrous, doughty, intrepid, venturesome"
-break, bankrupt, crack, destroy, rive, shatter, split, burst, crush, fracture, rupture, shiver, sunder, cashier, demolish, rend, sever, smash, transgress"
-brutish, animal, brutal, ignorant, sensual, swinish, base, brute, imbruted, sottish, unintellectual, beastly, carnal, insensible, stolid, unspiritual, bestial, coarse, lascivious, stupid, vile"
-burn, blaze, char, flame, incinerate, set fire to, brand, consume, flash, kindle, set on fire, cauterize, cremate, ignite, scorch, singe"
-business, affair, commerce, handicraft, trading, art, concern, job, traffic, avocation, craft, occupation, transaction, barter, duty, profession, vocation, calling, employment, trade, work"
-but, and, however, notwithstanding, that, barely, just, only, tho, besides, merely, provided, unless, except, moreover, save, yet, further, nevertheless, still"
-by, by dint of, by means of, through, with"
-cabal, combination, confederacy, crew, gang, conclave, conspiracy, faction, junto"
-calculate, account, consider, enumerate, rate, cast, count, estimate, reckon, compute, deem, number, sum up"
-call, bawl, cry (out), roar, shriek, bellow, ejaculate, scream, vociferate, clamor, exclaim, shout, yell"
-calm, collected, imperturbable, sedate, still, composed, peaceful, self-possessed, tranquil, cool, placid, serene, undisturbed, dispassionate, quiet, smooth, unruffled"
-cancel, abolish, discharge, nullify, rescind, abrogate, efface, obliterate, revoke, annul, erase, quash, rub off or out, blot out, expunge, remove, scratch out, cross off or out, make void, repeal, vacate"
-candid, aboveboard, honest, open, truthful, artless, impartial, simple, unbiased, fair, ingenuous, sincere, unprejudiced, frank, innocent, straightforward, unreserved, guileless, naive, transparent, unsophisticated"
-caparison, accouterments, harness, housings, trappings"
-capital, chief city, metropolis, seat of government"
-care, anxiety, concern, oversight, trouble, attention, direction, perplexity, vigilance, caution, forethought, precaution, wariness, charge, heed, prudence, watchfulness, circumspection, management, solicitude, worry"
-career, charge, flight, passage, race, course, line of achievement, public life, rush"
-caress, coddle, embrace, fondle, pamper, court, flatter, kiss, pet"
-caricature, burlesque, extravaganza, mimicry, take-off, exaggeration, imitation, parody, travesty"
-carry, bear, convey, move, sustain, transmit, bring, lift, remove, take, transport"
-catastrophe, calamity, denouement, mischance, mishap, cataclysm, disaster, misfortune, sequel"
-catch, apprehend, comprehend, grasp, overtake, snatch, capture, discover, grip, secure, take, clasp, ensnare, gripe, seize, take hold of, clutch, entrap, lay hold of (on upon)"
-cause, actor, causality, designer, occasion, precedent, agent, causation, former, origin, reason, antecedent, condition, fountain, originator, source, author, creator, motive, power, spring"
-cease, abstain, desist, give over, quit, bring to an end, discontinue, intermit, refrain, come to an end, end, leave off, stop, conclude, finish, pause, terminate"
-celebrate, commemorate, keep, observe, solemnize"
-center, middle, midst"
-chagrin, confusion, discomposure, humiliation, shame, disappointment, dismay, mortification, vexation"
-change, alter, exchange, shift, transmute, commute, metamorphose, substitute, turn, convert, modify, transfigure, vary, diversify, qualify, transform, veer"
-change, alteration, mutation, renewing, transmutation, conversion, novelty, revolution, variation, diversity, regeneration, transformation, variety, innovation, renewal, transition, vicissitude"
-character, constitution, genius, personality, reputation, temper, disposition, nature, record, spirit, temperament"
-characteristic, attribute, feature, peculiarity, sign, trace, character, indication, property, singularity, trait, distinction, mark, quality"
-charming, bewitching, delightful, enrapturing, fascinating, captivating, enchanting, entrancing, winning"
-chasten, afflict, chastise, discipline, punish, refine, subdue, castigate, correct, humble, purify, soften, try"
-cherish, cheer, encourage, harbor, nurse, shelter, cling to, entertain, hold dear, nurture, treasure, comfort, foster, nourish, protect, value"
-choose, cull, elect, pick, pick out, prefer, select"
-circumlocution, diffuseness, prolixity, surplusage, verbiage, periphrasis, redundance, tautology, verbosity, pleonasm, redundancy, tediousness, wordiness"
-circumstance, accompaniment, fact, item, point, concomitant, feature, occurrence, position, detail, incident, particular, situation, event"
-class, association, circle, clique, company, grade, rank, caste, clan, club, coterie, order, set"
-cleanse, brush, dust, purify, scour, sponge, wash, clean, lave, rinse, scrub, sweep, wipe, disinfect, mop"
-clear, apparent, intelligible, pellucid, transparent, diaphanous, limpid, perspicuous, unadorned, distinct, lucid, plain, unambiguous, evident, manifest, straightforward, unequivocal, explicit, obvious, translucent, unmistakable"
-clever, able, capable, happy, keen, sharp, adroit, dexterous, ingenious, knowing, skilful, apt, expert, intellectual, quick, smart, bright, gifted, intelligent, quick-witted, talented"
-collision, clash, concussion, contact, impact, opposition, clashing, conflict, encounter, meeting, shock"
-comfortable, agreeable, cheery, genial, snug, at ease, commodious, pleasant, well-off, at rest, contented, satisfactory, well-provided, cheerful, convenient, satisfied, well-to-do"
-commit, assign, confide, consign, entrust, relegate, trust"
-company, assemblage, concourse, convocation, host, assembly, conference, crowd, meeting, collection, congregation, gathering, multitude, conclave, convention, group, throng"
-compel, coerce, drive, make, oblige, constrain, force, necessitate"
-complain, croak, growl, grunt, remonstrate, find fault, grumble, murmur, repine"
-complex, abstruse, confused, intricate, mixed, complicated, conglomerate, involved, multiform, composite, entangled, manifold, obscure, compound, heterogeneous, mingled, tangled"
-condemn, blame, convict, doom, reprove, censure, denounce, reprobate, sentence"
-confess, accept, allow, concede, grant, acknowledge, avow, disclose, own, admit, certify, endorse, recognize"
-confirm, assure, fix, sanction, substantiate, corroborate, prove, settle, sustain, establish, ratify, strengthen, uphold"
-conquer, beat, humble, overthrow, subject, checkmate, master, prevail over, subjugate, crush, overcome, put down, surmount, defeat, overmaster, reduce, vanquish, discomfit, overmatch, rout, win, down, overpower, subdue, worst"
-conscious, advised, assured, certain, cognizant, sensible, apprised, aware, certified, informed, sure"
-consequence, consequent, end, issue, outgrowth, sequel, effect, event, outcome, result, upshot"
-console, comfort, condole with, encourage, sympathize with"
-continual, ceaseless, incessant, regular, uninterrupted, constant, invariable, unbroken, unremitting, continuous, perpetual, unceasing, unvarying"
-contract, agreement, cartel, engagement, pledge, arrangement, compact, obligation, promise, bargain, covenant, pact, stipulation"
-contrast, compare, differentiate, discriminate, oppose"
-conversation, chat, communion, converse, intercourse, colloquy, confabulation, dialogue, parley, communication, conference, discourse, talk"
-convert, disciple, neophyte, proselyte"
-convey, carry, give, remove, shift, transmit, change, move, sell, transfer, transport"
-convoke, assemble, call together, convene, muster, call, collect, gather, summon"
-criminal, abominable, flagitious, immoral, sinful, vile, culpable, guilty, iniquitous, unlawful, wicked, felonious, illegal, nefarious, vicious, wrong"
-daily	
-danger, hazard, insecurity, jeopardy, peril, risk"
-dark, black, dusky, mysterious, sable, somber, dim, gloomy, obscure, shadowy, swart, dismal, murky, opaque, shady, swarthy"
-decay, corrupt, decompose, molder, putrefy, rot, spoil"
-deception, craft, dissimulation, finesse, lie, cunning, double-dealing, fraud, lying, deceit, duplicity, guile, prevarication, deceitfulness, fabrication, hypocrisy, trickery, delusion, falsehood, imposition, untruth"
-defense, apology, guard, rampart, shelter, bulwark, justification, resistance, shield, fortress, protection, safeguard, vindication"
-defile, befoul, corrupt, pollute, spoil, sully, tarnish, contaminate, infect, soil, stain, taint, vitiate"
-definition, comment, description, exposition, rendering, commentary, explanation, interpretation, translation"
-delegate, deputy, legate, proxy, representative, substitute"
-deliberate, confer, consult, meditate, reflect, consider, debate, ponder, weigh"
-delicious, dainty, delightful, exquisite, luscious, savory"
-delightful, acceptable, delicious, pleasant, refreshing, agreeable, grateful, pleasing, satisfying, congenial, gratifying, pleasurable, welcome"
-delusion, error, fallacy, hallucination, illusion, phantasm"
-demolish, destroy, overthrow, overturn, raze, ruin"
-demonstration, certainty, consequence, evidence, inference, conclusion, deduction, induction, proof"
-design, aim, final cause, object, proposal, device, intent, plan, purpose, end, intention, project, scheme"
-desire, appetency, concupiscence, hankering, proclivity, appetite, coveting, inclination, propensity, aspiration, craving, longing, wish"
-despair, desperation, despondency, discouragement, hopelessness"
-dexterity, adroitness, aptitude, cleverness, expertness, readiness, skill"
-diction, expression, phrase, style, vocabulary, language, phraseology, verbiage, wording"
-die, cease, decline, expire, perish, decease, depart, fade, wither"
-difference, contrariety, discrimination, distinction, inequality, contrast, disparity, divergence, unlikeness, disagreement, dissimilarity, diversity, variation, discrepancy, dissimilitude, inconsistency, variety"
-difficult, arduous, hard, onerous, toilsome, exhausting, laborious, severe, trying"
-direction, aim, bearing, course, inclination, tendency, way"
-discern, behold, discriminate, observe, recognize, descry, distinguish, perceive, see"
-discover, ascertain, detect, disclose, ferret out, find out, descry, discern, expose, find, invent"
-disease, affection, disorder, indisposition, sickness, ailment, distemper, infirmity, unhealthiness, complaint, illness, malady, unsoundness"
-disparage, belittle, depreciate, discredit, underestimate, carp at, derogate from, dishonor, underrate, decry, detract from, lower, undervalue"
-displace, confuse, derange, disturb, mislay, remove, crowd out, disarrange, jumble, misplace, unsettle"
-do, accomplish, carry out, discharge, perform, achieve, carry through, effect, perpetrate, actualize, commit, execute, realize, bring about, complete, finish, transact, bring to pass, consummate, fulfil, work out"
-docile, amenable, manageable, pliant, teachable, compliant, obedient, submissive, tractable, gentle, pliable, tame, yielding"
-doctrine, article of belief, belief, precept, teaching, article of faith, dogma, principle, tenet"
-dogmatic, arrogant, doctrinal, magisterial, positive, authoritative, domineering, opinionated, self-opinionated, dictatorial, imperious, overbearing, systematic"
-doubt, distrust, mistrust, surmise, suspect"
-doubt, disbelief, incredulity, perplexity, suspense, distrust, indecision, question, suspicion, hesitancy, irresolution, scruple, unbelief, hesitation, misgiving, skepticism, uncertainty"
-draw, allure, drag, haul, induce, lure, tow, attract, entice, incline, lead, pull, tug"
-dream, day-dream, fantasy, reverie, trance, fancy, hallucination, romance, vision"
-dress, apparel, clothes, garb, habit, uniform, array, clothing, garments, raiment, vestments, attire, costume, habiliments, robes, vesture"
-drive, compel, propel, repel, resist, thrust, impel, push, repulse, ride, urge on"
-duplicate, copy, facsimile, likeness, reproduction, counterpart, imitation, replica, transcript"
-duty, accountability, function, office, right, business, obligation, responsibility, righteousness"
-eager, animated, desirous, glowing, importunate, longing, anxious, earnest, hot, intense, vehement, ardent, enthusiastic, impatient, intent, yearning, burning, fervent, impetuous, keen, zealous"
-ease, easiness, expertness, facility, knack, readiness"
-education, breeding, discipline, learning, study, cultivation, information, nurture, teaching, culture, instruction, reading, training, development, knowledge, schooling, tuition"
-effrontery, assurance, boldness, hardihood, insolence, audacity, brass, impudence, shamelessness"
-egotism, conceit, self-assertion, self-confidence, self-esteem, egoism, self-conceit, self-consciousness, vanity"
-emblem, attribute, figure, image, sign, symbol, token, type"
-emigrate, immigrate, migrate"
-employ, call, engage, engross, hire, make use of, use, use up"
-end, break off, close, conclude, expire, quit, terminate, cease, complete, desist, finish, stop, wind up"
-end, accomplishment, effect, limit, achievement, expiration, outcome, bound, extent, period, boundary, extremity, point, cessation, finale, purpose, close, finis, result, completion, finish, termination, conclusion, fulfilment, terminus, consequence, goal, tip, consummation, intent, utmost, design, issue, uttermost"
-endeavor, attempt, essay, strive, try, undertake"
-endeavor, effort, exertion, struggle, trial"
-endure, abide, bear, brook, submit to, sustain, afford, bear up under, permit, suffer, tolerate, allow, bear with, put up with, support, undergo"
-enemy, adversary, antagonist, competitor, foe, opponent, rival"
-enmity, acrimony, bitterness, ill will, malignity, animosity, hatred, malevolence, rancor, antagonism, hostility, malice, spite"
-entertain, amuse, cheer, disport, enliven, interest, please, beguile, delight, divert, gratify, occupy, recreate"
-entertainment, amusement, diversion, fun, pleasure, cheer, enjoyment, merriment, recreation, delight, frolic, pastime, sport"
-enthusiasm, ardor, excitement, frenzy, transport, devotion, extravagance, inspiration, vehemence, eagerness, fanaticism, intensity, warmth, earnestness, fervency, passion, zeal, ecstasy, fervor, rapture"
-entrance, access, approach, gate, introduction, accession, door, gateway, opening, adit, doorway, ingress, penetration, admission, entrée, inlet, portal, admittance, entry"
-envious, jealous, suspicious"
-equivocal, ambiguous, enigmatical, indistinct, questionable, doubtful, indefinite, obscure, suspicious, dubious, indeterminate, perplexing, uncertain, enigmatic"
-esteem, appreciate, consider, estimate, prize, think, calculate, deem, hold, regard, value"
-esteem, estimate, estimation, favor, regard, respect"
-eternal, deathless, fadeless, never-failing, undying, endless, immortal, perennial, unending, eonian, imperishable, perpetual, unfading, everlasting, interminable, timeless, unfailing, ever-living, never-ending, unceasing, without end"
-event, case, contingency, fortune, outcome, chance, end, incident, possibility, circumstance, episode, issue, result, consequence, fact, occurrence, sequel"
-every, all, any, both, each, either"
-evident, apparent, glaring, overt, tangible, clear, indubitable, palpable, transparent, conspicuous, manifest, patent, unmistakable, discernible, obvious, perceptible, visible, distinct, open, plain"
-example, archetype, ideal, prototype, type, ensample, model, sample, warning, exemplar, pattern, specimen, exemplification, precedent, standard"
-excess, dissipation, lavishness, redundance, surplus, exorbitance, overplus, redundancy, waste, extravagance, prodigality, superabundance, wastefulness, intemperance, profusion, superfluity"
-execute, administer, carry out, do, enforce, perform"
-exercise, act, application, exertion, performance, action, drill, occupation, practise, activity, employment, operation, use"
-expense, cost, expenditure, outgo, outlay"
-extemporaneous, extemporary, impromptu, offhand, extempore, improvised, unpremeditated"
-exterminate, annihilate, eradicate, overthrow, uproot, banish, expel, remove, wipe out, destroy, extirpate, root out"
+babble, blab, cackle, gabble, murmur, prattle, blurt, chat, gossip, palaver, tattle, blurt out, chatter, jabber, prate, twaddle
+banish, ban, dismiss, evict, expatriate, ostracize, discharge, drive out, exile, expel, oust, dislodge, eject
+bank, beach, bound, brink, edge, margin, shore, border, brim, coast, marge, rim, strand
+banter, badinage, derision, jeering, raillery, sarcasm, chaff, irony, mockery, ridicule, satire
+barbarous, atrocious, brutal, merciless, uncivilized, barbarian, cruel, rude, uncouth, barbaric, inhuman, savage, untamed
+barrier, bar, bulwark, obstruction, rampart, barricade, hindrance, parapet, restraint, breastwork, obstacle, prohibition, restriction
+battle, action, combat, encounter, passage of arms, affair, conflict, engagement, skirmish, bout, contest, fight, strife
+beat, bastinado, chastise, overcome, spank, thrash, batter, conquer, pommel, strike, vanquish, belabor, cudgel, pound, surpass, whip, bruise, defeat, scourge, switch, worst, castigate, flog, smite
+beautiful, attractive, charming, exquisite, handsome, beauteous, comely, fair, lovely, bewitching, delightful, fine, picturesque, bonny, elegant, graceful, pretty
+because, as, for, inasmuch as, since
+becoming, befitting, congruous, fit, meet, seemly, beseeming, decent, fitting, neat, suitable, comely, decorous, graceful, proper, worthy
+beginning, arising, inauguration, origin, source, commencement, inception, outset, spring, fount, initiation, rise, start, fountain, opening
+behavior, action, breeding, conduct, deportment, manner, bearing, carriage, demeanor, life, manners
+bend, bias, curve, diverge, mold, submit, twist, bow, deflect, incline, persuade, turn, warp, crook, deviate, influence, stoop, twine, yield
+benevolence, almsgiving, charity, kind-heartedness, munificence, beneficence, generosity, kindliness, philanthropy, benignity, good-will, kindness, sympathy, bounty, humanity, liberality, unselfishness
+bind, compel, fetter, oblige, restrict, shackle, engage, fix, restrain, secure, tie, fasten
+bitter, acerb, acidulous, caustic, pungent, stinging, acetous, acrid, cutting, savage, tart, acid, acrimonious, harsh, sharp, vinegarish, acidulated, biting, irate, sour, virulent
+bleach, blanch, make white, whiten, whitewash
+blemish, blot, defacement, disgrace, injury, spot, blur, defect, dishonor, reproach, stain, brand, deformity, fault, smirch, stigma, crack, dent, flaw, soil, taint, daub, disfigurement, imperfection, speck, tarnish
+blow, box, concussion, disaster, misfortune, stripe, buffet, cuff, knock, rap, stroke, calamity, cut, lash, shock, thump
+bluff, abrupt, brusk, impolite, rough, blunt, coarse, inconsiderate, rude, blustering, discourteous, open, uncivil, bold, frank, plain-spoken, unmannerly
+body, ashes, clay, dust, frame, system, carcass, corpse, form, remains, trunk
+both, twain, two
+boundary, barrier, confines, limit, margin, border, edge, line, term, bound, enclosure, marches, termination, bourn, frontier, marge, verge, bourne, landmark
+brave, adventurous, courageous, fearless, undaunted, bold, daring, gallant, undismayed, chivalric, dauntless, heroic, valiant, chivalrous, doughty, intrepid, venturesome
+break, bankrupt, crack, destroy, rive, shatter, split, burst, crush, fracture, rupture, shiver, sunder, cashier, demolish, rend, sever, smash, transgress
+brutish, animal, brutal, ignorant, sensual, swinish, base, brute, imbruted, sottish, unintellectual, beastly, carnal, insensible, stolid, unspiritual, bestial, coarse, lascivious, stupid, vile
+burn, blaze, char, flame, incinerate, set fire to, brand, consume, flash, kindle, set on fire, cauterize, cremate, ignite, scorch, singe
+business, affair, commerce, handicraft, trading, art, concern, job, traffic, avocation, craft, occupation, transaction, barter, duty, profession, vocation, calling, employment, trade, work
+but, and, however, notwithstanding, that, barely, just, only, tho, besides, merely, provided, unless, except, moreover, save, yet, further, nevertheless, still
+by, by dint of, by means of, through, with
+cabal, combination, confederacy, crew, gang, conclave, conspiracy, faction, junto
+calculate, account, consider, enumerate, rate, cast, count, estimate, reckon, compute, deem, number, sum up
+call, bawl, cry (out), roar, shriek, bellow, ejaculate, scream, vociferate, clamor, exclaim, shout, yell
+calm, collected, imperturbable, sedate, still, composed, peaceful, self-possessed, tranquil, cool, placid, serene, undisturbed, dispassionate, quiet, smooth, unruffled
+cancel, abolish, discharge, nullify, rescind, abrogate, efface, obliterate, revoke, annul, erase, quash, rub off or out, blot out, expunge, remove, scratch out, cross off or out, make void, repeal, vacate
+candid, aboveboard, honest, open, truthful, artless, impartial, simple, unbiased, fair, ingenuous, sincere, unprejudiced, frank, innocent, straightforward, unreserved, guileless, naive, transparent, unsophisticated
+caparison, accouterments, harness, housings, trappings
+capital, chief city, metropolis, seat of government
+care, anxiety, concern, oversight, trouble, attention, direction, perplexity, vigilance, caution, forethought, precaution, wariness, charge, heed, prudence, watchfulness, circumspection, management, solicitude, worry
+career, charge, flight, passage, race, course, line of achievement, public life, rush
+caress, coddle, embrace, fondle, pamper, court, flatter, kiss, pet
+caricature, burlesque, extravaganza, mimicry, take-off, exaggeration, imitation, parody, travesty
+carry, bear, convey, move, sustain, transmit, bring, lift, remove, take, transport
+catastrophe, calamity, denouement, mischance, mishap, cataclysm, disaster, misfortune, sequel
+catch, apprehend, comprehend, grasp, overtake, snatch, capture, discover, grip, secure, take, clasp, ensnare, gripe, seize, take hold of, clutch, entrap, lay hold of (on upon)
+cause, actor, causality, designer, occasion, precedent, agent, causation, former, origin, reason, antecedent, condition, fountain, originator, source, author, creator, motive, power, spring
+cease, abstain, desist, give over, quit, bring to an end, discontinue, intermit, refrain, come to an end, end, leave off, stop, conclude, finish, pause, terminate
+celebrate, commemorate, keep, observe, solemnize
+center, middle, midst
+chagrin, confusion, discomposure, humiliation, shame, disappointment, dismay, mortification, vexation
+change, alter, exchange, shift, transmute, commute, metamorphose, substitute, turn, convert, modify, transfigure, vary, diversify, qualify, transform, veer
+change, alteration, mutation, renewing, transmutation, conversion, novelty, revolution, variation, diversity, regeneration, transformation, variety, innovation, renewal, transition, vicissitude
+character, constitution, genius, personality, reputation, temper, disposition, nature, record, spirit, temperament
+characteristic, attribute, feature, peculiarity, sign, trace, character, indication, property, singularity, trait, distinction, mark, quality
+charming, bewitching, delightful, enrapturing, fascinating, captivating, enchanting, entrancing, winning
+chasten, afflict, chastise, discipline, punish, refine, subdue, castigate, correct, humble, purify, soften, try
+cherish, cheer, encourage, harbor, nurse, shelter, cling to, entertain, hold dear, nurture, treasure, comfort, foster, nourish, protect, value
+choose, cull, elect, pick, pick out, prefer, select
+circumlocution, diffuseness, prolixity, surplusage, verbiage, periphrasis, redundance, tautology, verbosity, pleonasm, redundancy, tediousness, wordiness
+circumstance, accompaniment, fact, item, point, concomitant, feature, occurrence, position, detail, incident, particular, situation, event
+class, association, circle, clique, company, grade, rank, caste, clan, club, coterie, order, set
+cleanse, brush, dust, purify, scour, sponge, wash, clean, lave, rinse, scrub, sweep, wipe, disinfect, mop
+clear, apparent, intelligible, pellucid, transparent, diaphanous, limpid, perspicuous, unadorned, distinct, lucid, plain, unambiguous, evident, manifest, straightforward, unequivocal, explicit, obvious, translucent, unmistakable
+clever, able, capable, happy, keen, sharp, adroit, dexterous, ingenious, knowing, skilful, apt, expert, intellectual, quick, smart, bright, gifted, intelligent, quick-witted, talented
+collision, clash, concussion, contact, impact, opposition, clashing, conflict, encounter, meeting, shock
+comfortable, agreeable, cheery, genial, snug, at ease, commodious, pleasant, well-off, at rest, contented, satisfactory, well-provided, cheerful, convenient, satisfied, well-to-do
+commit, assign, confide, consign, entrust, relegate, trust
+company, assemblage, concourse, convocation, host, assembly, conference, crowd, meeting, collection, congregation, gathering, multitude, conclave, convention, group, throng
+compel, coerce, drive, make, oblige, constrain, force, necessitate
+complain, croak, growl, grunt, remonstrate, find fault, grumble, murmur, repine
+complex, abstruse, confused, intricate, mixed, complicated, conglomerate, involved, multiform, composite, entangled, manifold, obscure, compound, heterogeneous, mingled, tangled
+condemn, blame, convict, doom, reprove, censure, denounce, reprobate, sentence
+confess, accept, allow, concede, grant, acknowledge, avow, disclose, own, admit, certify, endorse, recognize
+confirm, assure, fix, sanction, substantiate, corroborate, prove, settle, sustain, establish, ratify, strengthen, uphold
+conquer, beat, humble, overthrow, subject, checkmate, master, prevail over, subjugate, crush, overcome, put down, surmount, defeat, overmaster, reduce, vanquish, discomfit, overmatch, rout, win, down, overpower, subdue, worst
+conscious, advised, assured, certain, cognizant, sensible, apprised, aware, certified, informed, sure
+consequence, consequent, end, issue, outgrowth, sequel, effect, event, outcome, result, upshot
+console, comfort, condole with, encourage, sympathize with
+continual, ceaseless, incessant, regular, uninterrupted, constant, invariable, unbroken, unremitting, continuous, perpetual, unceasing, unvarying
+contract, agreement, cartel, engagement, pledge, arrangement, compact, obligation, promise, bargain, covenant, pact, stipulation
+contrast, compare, differentiate, discriminate, oppose
+conversation, chat, communion, converse, intercourse, colloquy, confabulation, dialogue, parley, communication, conference, discourse, talk
+convert, disciple, neophyte, proselyte
+convey, carry, give, remove, shift, transmit, change, move, sell, transfer, transport
+convoke, assemble, call together, convene, muster, call, collect, gather, summon
+criminal, abominable, flagitious, immoral, sinful, vile, culpable, guilty, iniquitous, unlawful, wicked, felonious, illegal, nefarious, vicious, wrong
+daily
+danger, hazard, insecurity, jeopardy, peril, risk
+dark, black, dusky, mysterious, sable, somber, dim, gloomy, obscure, shadowy, swart, dismal, murky, opaque, shady, swarthy
+decay, corrupt, decompose, molder, putrefy, rot, spoil
+deception, craft, dissimulation, finesse, lie, cunning, double-dealing, fraud, lying, deceit, duplicity, guile, prevarication, deceitfulness, fabrication, hypocrisy, trickery, delusion, falsehood, imposition, untruth
+defense, apology, guard, rampart, shelter, bulwark, justification, resistance, shield, fortress, protection, safeguard, vindication
+defile, befoul, corrupt, pollute, spoil, sully, tarnish, contaminate, infect, soil, stain, taint, vitiate
+definition, comment, description, exposition, rendering, commentary, explanation, interpretation, translation
+delegate, deputy, legate, proxy, representative, substitute
+deliberate, confer, consult, meditate, reflect, consider, debate, ponder, weigh
+delicious, dainty, delightful, exquisite, luscious, savory
+delightful, acceptable, delicious, pleasant, refreshing, agreeable, grateful, pleasing, satisfying, congenial, gratifying, pleasurable, welcome
+delusion, error, fallacy, hallucination, illusion, phantasm
+demolish, destroy, overthrow, overturn, raze, ruin
+demonstration, certainty, consequence, evidence, inference, conclusion, deduction, induction, proof
+design, aim, final cause, object, proposal, device, intent, plan, purpose, end, intention, project, scheme
+desire, appetency, concupiscence, hankering, proclivity, appetite, coveting, inclination, propensity, aspiration, craving, longing, wish
+despair, desperation, despondency, discouragement, hopelessness
+dexterity, adroitness, aptitude, cleverness, expertness, readiness, skill
+diction, expression, phrase, style, vocabulary, language, phraseology, verbiage, wording
+die, cease, decline, expire, perish, decease, depart, fade, wither
+difference, contrariety, discrimination, distinction, inequality, contrast, disparity, divergence, unlikeness, disagreement, dissimilarity, diversity, variation, discrepancy, dissimilitude, inconsistency, variety
+difficult, arduous, hard, onerous, toilsome, exhausting, laborious, severe, trying
+direction, aim, bearing, course, inclination, tendency, way
+discern, behold, discriminate, observe, recognize, descry, distinguish, perceive, see
+discover, ascertain, detect, disclose, ferret out, find out, descry, discern, expose, find, invent
+disease, affection, disorder, indisposition, sickness, ailment, distemper, infirmity, unhealthiness, complaint, illness, malady, unsoundness
+disparage, belittle, depreciate, discredit, underestimate, carp at, derogate from, dishonor, underrate, decry, detract from, lower, undervalue
+displace, confuse, derange, disturb, mislay, remove, crowd out, disarrange, jumble, misplace, unsettle
+do, accomplish, carry out, discharge, perform, achieve, carry through, effect, perpetrate, actualize, commit, execute, realize, bring about, complete, finish, transact, bring to pass, consummate, fulfil, work out
+docile, amenable, manageable, pliant, teachable, compliant, obedient, submissive, tractable, gentle, pliable, tame, yielding
+doctrine, article of belief, belief, precept, teaching, article of faith, dogma, principle, tenet
+dogmatic, arrogant, doctrinal, magisterial, positive, authoritative, domineering, opinionated, self-opinionated, dictatorial, imperious, overbearing, systematic
+doubt, distrust, mistrust, surmise, suspect
+doubt, disbelief, incredulity, perplexity, suspense, distrust, indecision, question, suspicion, hesitancy, irresolution, scruple, unbelief, hesitation, misgiving, skepticism, uncertainty
+draw, allure, drag, haul, induce, lure, tow, attract, entice, incline, lead, pull, tug
+dream, day-dream, fantasy, reverie, trance, fancy, hallucination, romance, vision
+dress, apparel, clothes, garb, habit, uniform, array, clothing, garments, raiment, vestments, attire, costume, habiliments, robes
+drive, compel, propel, repel, resist, thrust, impel, push, repulse, ride, urge on
+duplicate, copy, facsimile, likeness, reproduction, counterpart, imitation, replica, transcript
+duty, accountability, function, office, right, business, obligation, responsibility, righteousness
+eager, animated, desirous, glowing, importunate, longing, anxious, earnest, hot, intense, vehement, ardent, enthusiastic, impatient, intent, yearning, burning, fervent, impetuous, keen, zealous
+ease, easiness, expertness, facility, knack, readiness
+education, breeding, discipline, learning, study, cultivation, information, nurture, teaching, culture, instruction, reading, training, development, knowledge, schooling, tuition
+effrontery, assurance, boldness, hardihood, insolence, audacity, brass, impudence, shamelessness
+egotism, conceit, self-assertion, self-confidence, self-esteem, egoism, self-conceit, self-consciousness, vanity
+emblem, attribute, figure, image, sign, symbol, token, type
+emigrate, immigrate, migrate
+employ, call, engage, engross, hire, make use of, use, use up
+end, break off, close, conclude, expire, quit, terminate, cease, complete, desist, finish, stop, wind up
+end, accomplishment, effect, limit, achievement, expiration, outcome, bound, extent, period, boundary, extremity, point, cessation, finale, purpose, close, finis, result, completion, finish, termination, conclusion, fulfilment, terminus, consequence, goal, tip, consummation, intent, utmost, design, issue, uttermost
+endeavor, attempt, essay, strive, try, undertake
+endeavor, effort, exertion, struggle, trial
+endure, abide, bear, brook, submit to, sustain, afford, bear up under, permit, suffer, tolerate, allow, bear with, put up with, support, undergo
+enemy, adversary, antagonist, competitor, foe, opponent, rival
+enmity, acrimony, bitterness, ill will, malignity, animosity, hatred, malevolence, rancor, antagonism, hostility, malice, spite
+entertain, amuse, cheer, disport, enliven, interest, please, beguile, delight, divert, gratify, occupy, recreate
+entertainment, amusement, diversion, fun, pleasure, cheer, enjoyment, merriment, recreation, delight, frolic, pastime, sport
+enthusiasm, ardor, excitement, frenzy, transport, devotion, extravagance, inspiration, vehemence, eagerness, fanaticism, intensity, warmth, earnestness, fervency, passion, zeal, ecstasy, fervor, rapture
+entrance, access, approach, gate, introduction, accession, door, gateway, opening, adit, doorway, ingress, penetration, admission, entrée, inlet, portal, admittance, entry
+envious, jealous, suspicious
+equivocal, ambiguous, enigmatical, indistinct, questionable, doubtful, indefinite, obscure, suspicious, dubious, indeterminate, perplexing, uncertain, enigmatic
+esteem, appreciate, consider, estimate, prize, think, calculate, deem, hold, regard, value
+esteem, estimate, estimation, favor, regard, respect
+eternal, deathless, fadeless, never-failing, undying, endless, immortal, perennial, unending, eonian, imperishable, perpetual, unfading, everlasting, interminable, timeless, unfailing, ever-living, never-ending, unceasing, without end
+event, case, contingency, fortune, outcome, chance, end, incident, possibility, circumstance, episode, issue, result, consequence, fact, occurrence, sequel
+every, all, any, both, each, either
+evident, apparent, glaring, overt, tangible, clear, indubitable, palpable, transparent, conspicuous, manifest, patent, unmistakable, discernible, obvious, perceptible, visible, distinct, open, plain
+example, archetype, ideal, prototype, type, ensample, model, sample, warning, exemplar, pattern, specimen, exemplification, precedent, standard
+excess, dissipation, lavishness, redundance, surplus, exorbitance, overplus, redundancy, waste, extravagance, prodigality, superabundance, wastefulness, intemperance, profusion, superfluity
+execute, administer, carry out, do, enforce, perform
+exercise, act, application, exertion, performance, action, drill, occupation, practise, activity, employment, operation, use
+expense, cost, expenditure, outgo, outlay
+extemporaneous, extemporary, impromptu, offhand, extempore, improvised, unpremeditated
+exterminate, annihilate, eradicate, overthrow, uproot, banish, expel, remove, wipe out, destroy, extirpate, root out
 faint, dim, fatigued, irresolute, weak, exhausted, feeble, languid, wearied, faded, half-hearted, listless, worn, faint-hearted, ill-defined, purposeless, worn down, faltering, indistinct, timid, worn out"
-faith, assent, confidence, credit, opinion, assurance, conviction, creed, reliance, belief, credence, doctrine, trust"
-faithful, devoted, incorruptible, stanch, true, trusty, firm, loyal, sure, trustworthy, unwavering"
-fame, celebrity, eminence, honor, notoriety, reputation, credit, glory, laurels, renown, repute, distinction"
-fanaticism, bigotry, credulity, intolerance, superstition"
-fanciful, chimerical, fantastic, grotesque, imaginative, visionary"
-fancy, belief, desire, imagination, predilection, caprice, humor, inclination, supposition, conceit, idea, liking, vagary, conception, image, mood, whim"
-farewell, adieu, good-by, parting salutation, valedictory, congé, leave-taking, valediction"
-fear, affright, dismay, horror, timidity, apprehension, disquietude, misgiving, trembling, awe, dread, panic, tremor, consternation, fright, terror, trepidation"
-feminine, effeminate, female, womanish, womanly"
-fetter, bondage, custody, gyves, irons, bonds, durance, handcuffs, manacles, chains, duress, imprisonment, shackles"
-feud, affray, brawl, contest, dissension, hostility, animosity, broil, controversy, enmity, quarrel, bitterness, contention, dispute, fray, strife"
-fiction, allegory, fabrication, invention, myth, romance, apologue, falsehood, legend, novel, story, fable, figment"
-fierce, ferocious, furious, raging, uncultivated, violent, fiery, impetuous, savage, untrained, wild"
-financial, fiscal, monetary, pecuniary"
-fine, beautiful, excellent, polished, small, clarified, exquisite, pure, smooth, clear, gauzy, refined, splendid, comminuted, handsome, sensitive, subtile, dainty, keen, sharp, subtle, delicate, minute, slender, tenuous, elegant, nice, slight, thin"
-fire, blaze, burning, combustion, conflagration, flame"
-flock, bevy, covey, group, herd, lot, set, brood, drove, hatch, litter, pack, swarm"
-fluctuate, hesitate, swerve, vacillate, veer, oscillate, undulate, vary, waver"
-fluid, gas, liquid"
-follow, accompany, come after, go after, obey, pursue, attend, copy, heed, observe, result, chase, ensue, imitate, practise, succeed"
-food, aliment, feed, nourishment, pabulum, sustenance, diet, fodder, nutriment, provender, viands, fare, forage, nutrition, regimen, victuals"
-formidable, dangerous, redoubted, terrible, tremendous"
-fortification, castle, citadel, fastness, fort, fortress, stronghold"
-fortitude, courage, endurance, heroism, resolution"
-fortunate, favored, lucky, prospered, prosperous, successful, happy"
-fraud, artifice, deceit, duplicity, swindle, treason, cheat, deception, imposition, swindling, trick, cheating, dishonesty, imposture, treachery"
-friendly, accessible, companionable, genial, neighborly, affable, complaisant, hearty, sociable, affectionate, cordial, kind, social, amicable, favorable, kindly, tender, brotherly, fond, loving, well-disposed"
-friendship, affection, comity, esteem, good will, amity, consideration, favor, love, attachment, devotion, friendliness, regard"
-frighten, affright, appal, cow, dismay, scare, alarm, browbeat, daunt, intimidate, terrify"
-frugality, economy, parsimony, saving, sparing, miserliness, providence, scrimping, thrift, parsimoniousness, prudence"
+faith, assent, confidence, credit, opinion, assurance, conviction, creed, reliance, belief, credence, doctrine, trust
+faithful, devoted, incorruptible, stanch, true, trusty, firm, loyal, sure, trustworthy, unwavering
+fame, celebrity, eminence, honor, notoriety, reputation, credit, glory, laurels, renown, repute, distinction
+fanaticism, bigotry, credulity, intolerance, superstition
+fanciful, chimerical, fantastic, grotesque, imaginative, visionary
+fancy, belief, desire, imagination, predilection, caprice, humor, inclination, supposition, conceit, idea, liking, vagary, conception, image, mood, whim
+farewell, adieu, good-by, parting salutation, valedictory, congé, leave-taking, valediction
+fear, affright, dismay, horror, timidity, apprehension, disquietude, misgiving, trembling, awe, dread, panic, tremor, consternation, fright, terror, trepidation
+feminine, effeminate, female, womanish, womanly
+fetter, bondage, custody, gyves, irons, bonds, durance, handcuffs, manacles, chains, duress, imprisonment, shackles
+feud, affray, brawl, contest, dissension, hostility, animosity, broil, controversy, enmity, quarrel, bitterness, contention, dispute, fray, strife
+fiction, allegory, fabrication, invention, myth, romance, apologue, falsehood, legend, novel, story, fable, figment
+fierce, ferocious, furious, raging, uncultivated, violent, fiery, impetuous, savage, untrained, wild
+financial, fiscal, monetary, pecuniary
+fine, beautiful, excellent, polished, small, clarified, exquisite, pure, smooth, clear, gauzy, refined, splendid, comminuted, handsome, sensitive, subtile, dainty, keen, sharp, subtle, delicate, minute, slender, tenuous, elegant, nice, slight, thin
+fire, blaze, burning, combustion, conflagration, flame
+flock, bevy, covey, group, herd, lot, set, brood, drove, hatch, litter, pack, swarm
+fluctuate, hesitate, swerve, vacillate, veer, oscillate, undulate, vary, waver
+fluid, gas, liquid
+follow, accompany, come after, go after, obey, pursue, attend, copy, heed, observe, result, chase, ensue, imitate, practise, succeed
+food, aliment, feed, nourishment, pabulum, sustenance, diet, fodder, nutriment, provender, viands, fare, forage, nutrition, regimen, victuals
+formidable, dangerous, redoubted, terrible, tremendous
+fortification, castle, citadel, fastness, fort, fortress, stronghold
+fortitude, courage, endurance, heroism, resolution
+fortunate, favored, lucky, prospered, prosperous, successful, happy
+fraud, artifice, deceit, duplicity, swindle, treason, cheat, deception, imposition, swindling, trick, cheating, dishonesty, imposture, treachery
+friendly, accessible, companionable, genial, neighborly, affable, complaisant, hearty, sociable, affectionate, cordial, kind, social, amicable, favorable, kindly, tender, brotherly, fond, loving, well-disposed
+friendship, affection, comity, esteem, good will, amity, consideration, favor, love, attachment, devotion, friendliness, regard
+frighten, affright, appal, cow, dismay, scare, alarm, browbeat, daunt, intimidate, terrify
+frugality, economy, parsimony, saving, sparing, miserliness, providence, scrimping, thrift, parsimoniousness, prudence
 garrulous, chattering, loquacious, talkative, verbose
-general, common, familiar, ordinary, universal, commonplace, frequent, popular, usual, customary, habitual, prevalent, everyday, normal, public"
-generous, bountiful, free, liberal, noble, chivalrous, free-handed, magnanimous, open-handed, disinterested, free-hearted, munificent, open-hearted"
-genius, talent, talents"
-get, achieve, attain, gain, procure, secure, acquire, earn, obtain, receive, win"
-gift, benefaction, boon, bribe, grant, largess, bequest, bounty, donation, gratuity, present"
-give, bestow, communicate, deliver, grant, supply, cede, confer, furnish, impart"
-govern, command, curb, influence, mold, reign over, rule, control, direct, manage, reign, restrain, sway"
-grief, affliction, melancholy, regret, sorrow, trouble, distress, mourning, sadness, tribulation, wo"
-habit, custom, habitude, routine, system, use, fashion, practise, rule, usage, wont"
-happen, bechance, chance, fall out, supervene, befall, come to pass, occur, take place, betide, fall"
-happiness, blessedness, delight, gladness, pleasure, bliss, ecstasy, gratification, rapture, cheer, enjoyment, joy, rejoicing, comfort, felicity, merriment, satisfaction, contentment, gaiety, mirth, triumph"
-happy, blessed, cheering, gay, lucky, rejoiced, blissful, cheery, glad, merry, rejoicing, blithe, delighted, jocund, mirthful, smiling, blithesome, delightful, jolly, pleased, sprightly, bright, dexterous, joyful, prosperous, successful, buoyant, felicitous, joyous, rapturous, sunny, cheerful, fortunate"
-harmony, accord, concurrence, consistency, uniformity, accordance, conformity, consonance, union, agreement, congruity, symmetry, unison, amity, consent, unanimity, unity, concord"
-harvest, crop, harvest-home, ingathering, result, fruit, harvesting, proceeds, return, growth, harvest-tide, produce, yield, harvest-feast, harvest-time, product, harvest-festival, increase, reaping"
-hatred, abhorrence, detestation, hostility, rancor, anger, dislike, ill will, repugnance, animosity, enmity, malevolence, resentment, antipathy, grudge, malice, revenge, aversion, hate, malignity, spite"
-have, be in possession of, hold, occupy, own, possess, be possessed of"
-hazard, accident, chance, danger, jeopardy, risk, casualty, contingency, fortuity, peril, venture"
-healthy, hale, hygienic, sanitary, vigorous, healthful, salubrious, sound, well, hearty, salutary, strong, wholesome"
-help, abet, befriend, foster, succor, uphold, aid, cooperate, second, support, assist, encourage, stand by, sustain"
-heretic, dissenter, heresiarch, non-conformist, schismatic"
-heterogeneous, confused, mingled, unhomogeneous, conglomerate, miscellaneous, unlike, discordant, mixed, variant, dissimilar, non-homogeneous, various"
-hide, bury, cover, entomb, overwhelm, suppress, cloak, disguise, inter, screen, veil, conceal, dissemble, mask, secrete"
-high, elevated, exalted, noble, steep, towering, eminent, lofty, proud, tall, uplifted"
-hinder, baffle, clog, foil, obstruct, retard, balk, counteract, frustrate, oppose, stay, bar, delay, hamper, prevent, stop, block, embarrass, impede, resist, thwart, check, encumber, interrupt"
-history, account, biography, muniment, record, annals, chronicle, narration, register, archives, memoir, narrative, story, autobiography, memorial, recital"
-holy, blessed, devoted, hallowed, saintly, consecrated, divine, sacred, set apart"
-home, abode, dwelling, habitation, hearthstone, ingleside, domicil, fireside, hearth, house, residence"
-honest, candid, frank, ingenuous, true, equitable, genuine, just, trustworthy, fair, good, sincere, trusty, faithful, honorable, straightforward, upright"
-horizontal, even, flat, level, plain, plane"
-humane, benevolent, compassionate, human, pitying, benignant, forgiving, kind, sympathetic, charitable, gentle, kind-hearted, tender, clement, gracious, merciful, tender-hearted"
-hunt, chase, hunting, inquisition, pursuit, search"
-hypocrisy, affectation, formalism, pretense, sanctimony, cant, pharisaism, sanctimoniousness, sham, dissimulation, pietism"
-hypocrite, cheat, deceiver, dissembler, impostor, pretender"
-hypothesis, conjecture, scheme, supposition, system, guess, speculation, surmise, theory"
-idea, apprehension, design, impression, plan, archetype, fancy, judgment, purpose, belief, fantasy, model, sentiment, conceit, ideal, notion, supposition, concept, image, opinion, theory, conception, imagination, pattern, thought"
-ideal, archetype, model, pattern, prototype, standard, idea, original"
-idiocy, fatuity, foolishness, incapacity, stupidity, folly, imbecility, senselessness"
-idle, inactive, inert, slothful, trifling, unoccupied, indolent, lazy, sluggish, unemployed, vacant"
-ignorant, ill-informed, unenlightened, unlearned, untaught, illiterate, uninformed, unlettered, untutored, uneducated, uninstructed, unskilled"
-imagination, fancy, fantasy, phantasy"
-immediately, at once, instanter, presently, straightway, directly, instantly, right away, this instant, forthwith, now, right off, without delay"
-immerse, bury, dip, douse, duck, immerge, plunge, sink, submerge"
-imminent, impending, threatening"
-impediment, bar, clog, encumbrance, obstacle, barrier, difficulty, hindrance, obstruction"
-impudence, assurance, impertinence, intrusiveness, presumption, boldness, incivility, officiousness, rudeness, effrontery, insolence, pertness, sauciness, forwardness"
-incongruous, absurd, ill-matched, inharmonious, conflicting, inapposite, irreconcilable, contradictory, inappropriate, mismatched, contrary, incommensurable, mismated, discordant, incompatible, repugnant, discrepant, inconsistent, unsuitable"
-induction, deduction, inference"
-industrious, active, busy, employed, occupied, assiduous, diligent, engaged, sedulous"
-industry, application, diligence, labor, persistence, assiduity, effort, pains, sedulousness, attention, exertion, patience, constancy, intentness, perseverance"
-infinite, absolute, illimitable, limitless, unconditioned, boundless, immeasurable, measureless, unfathomable, countless, innumerable, numberless, unlimited, eternal, interminable, unbounded, unmeasured"
-influence, actuate, draw, impel, induce, move, stir, compel, drive, incite, instigate, persuade, sway, dispose, excite, incline, lead, prompt, urge"
-inherent, congenital, indispensable, innate, native, essential, indwelling, inseparable, natural, immanent, infixed, internal, subjective, inborn, ingrained, intrinsic, inbred, inhering, inwrought"
-injury, blemish, disadvantage, hurt, loss, prejudice, damage, evil, impairment, mischief, wrong, detriment, harm, injustice, outrage"
-injustice, grievance, injury, unfairness, unrighteousness, wrong, iniquity"
-innocent, blameless, guiltless, inoffensive, spotless, clean, harmless, pure, stainless, clear, immaculate, right, upright, faultless, innocuous, righteous, virtuous, guileless, innoxious, sinless"
-inquisitive, curious, meddlesome, peeping, scrutinizing, inquiring, meddling, prying, searching, intrusive"
-insanity, aberration, delirium, frenzy, madness, alienation, dementia, hallucination, mania, craziness, derangement, lunacy, monomania"
-interpose, arbitrate, intercept, intermeddle, meddle, intercede, interfere, interrupt, mediate"
-involve, complicate, embroil, implicate, include, embarrass, entangle, imply, overwhelm"
-journey, excursion, pilgrimage, transit, trip, expedition, tour, travel, voyage"
-judge, arbiter, arbitrator, justice, referee, umpire"
-justice, equity, impartiality, legality, rightfulness, fairness, integrity, rectitude, truth, fair play, justness, right, uprightness, faithfulness, law, righteousness, virtue, honor, lawfulness"
-keep, carry, defend, hold, preserve, retain, carry on, detain, maintain, protect, support, celebrate, fulfil, obey, refrain, sustain, conduct, guard, observe, restrain, withhold"
-kill, assassinate, despatch, massacre, put to death, slay, butcher, execute, murder, slaughter"
-kin, affinity, blood, descent, kind, race, alliance, consanguinity, family, kindred, relationship, birth"
-knowledge, acquaintance, erudition, learning, recognition, apprehension, experience, light, scholarship, cognition, information, lore, science, cognizance, intelligence, perception, wisdom, comprehension, intuition"
-language, barbarism, expression, patois, vernacular, dialect, idiom, speech, vocabulary, diction, mother tongue, tongue"
-large, abundant, coarse, gigantic, long, ample, colossal, grand, massive, big, commodious, great, spacious, broad, considerable, huge, vast, bulky, enormous, immense, wide, capacious, extensive"
-law, canon, economy, legislation, principle, code, edict, mandate, regulation, command, enactment, order, rule, commandment, formula, ordinance, statute, decree, jurisprudence, polity"
-liberty, emancipation, freedom, independence, license"
-light, blaze, gleam, glow, shimmer, flame, gleaming, illumination, shine, flare, glimmer, incandescence, shining, flash, glistening, luster, sparkle, flicker, glistering, scintillation, twinkle, glare, glitter, sheen, twinkling"
-likely, apt, conceivable, liable, probable, credible, conjectural, presumable, reasonable"
-listen, attend, hark, harken, hear, heed, list"
-literature, belles-lettres, literary productions, publications, books, literary works, writings"
-load, burden, charge, encumbrance, incubus, pack, cargo, clog, freight, lading, weight"
-lock, bar, catch, fastening, hook, bolt, clasp, hasp, latch"
-look, behold, discern, inspect, see, view, contemplate, gaze, regard, stare, watch, descry, glance, scan, survey"
-love, affection, charity, friendship, regard, attachment, devotion, liking, tenderness, attraction, fondness"
-make, become, constrain, fabricate, manufacture, bring about, construct, fashion, occasion, bring into being, create, force, perform, bring to pass, do, frame, reach, cause, effect, get, render, compel, establish, make out, require, compose, execute, make up, shape, constitute"
-marriage, conjugal union, espousals, nuptials, spousals, wedding, espousal, matrimony, spousal, union, wedlock"
-masculine, male, manful, manlike, manly, mannish, virile"
-massacre, butchery, carnage, havoc, slaughter"
-meddlesome, impertinent, intrusive, meddling, obtrusive, officious"
-melody, harmony, music, symphony, unison"
-memory, recollection, reminiscence, retrospect, retrospection, remembrance"
-mercy, benevolence, favor, kindness, mildness, benignity, forbearance, lenience, pardon, blessing, forgiveness, leniency, pity, clemency, gentleness, lenity, tenderness, compassion, grace"
-meter, euphony, measure, rhythm, verse"
-mind, brain, instinct, reason, spirit, consciousness, intellect, sense, thought, disposition, intelligence, soul, understanding"
-minute, circumstantial, diminutive, little, slender, comminuted, exact, particular, small, critical, fine, precise, tiny, detailed"
-misfortune, adversity, disappointment, ill fortune, ruin, affliction, disaster, ill luck, sorrow, bereavement, distress, misadventure, stroke, blow, failure, mischance, trial, calamity, hardship, misery, tribulation, chastening, harm, mishap, trouble, chastisement, ill, reverse, visitation"
-mob, canaille, dregs of the people, masses, rabble, crowd, lower classes, populace, the vulgar"
-model, archetype, facsimile, original, representation, copy, image, pattern, standard, design, imitation, prototype, type, example, mold"
-modesty, backwardness, constraint, reserve, timidity, bashfulness, coyness, shyness, unobtrusiveness, coldness, diffidence"
-money, bills, cash, funds, property, bullion, coin, gold, silver, capital, currency, notes, specie"
-morose, acrimonious, dogged, ill-natured, splenetic, churlish, gloomy, severe, sulky, crabbed, gruff, snappish, sullen, crusty, ill-humored, sour, surly"
-motion, act, change, movement, process, transition, action, move, passage, transit"
-mourn, bemoan, deplore, lament, regret, rue, sorrow, bewail, grieve"
-mutual, common, correlative, interchangeable, joint, reciprocal"
-mysterious, abstruse, inexplicable, recondite, cabalistic, inscrutable, secret, dark, mystic, transcendental, enigmatical, mystical, unfathomable, hidden, obscure, unfathomed, incomprehensible, occult, unknown"
-name, agnomen, denomination, prenomen, surname, appellation, designation, style, title, cognomen, epithet"
-native, indigenous, innate, natal, natural, original"
-nautical, marine, maritime, naval, ocean, oceanic"
-neat, clean, dapper, nice, prim, tidy, cleanly, natty, orderly, spruce, trim"
-necessary, essential, infallible, required, unavoidable, indispensable, needed, requisite, undeniable, inevitable, needful"
-necessity, compulsion, fatality, requisite, destiny, fate, sine qua non, emergency, indispensability, unavoidableness, essential, indispensableness, urgency, exigency, need, want, extremity, requirement"
-neglect, carelessness, heedlessness, negligence, scorn, default, inadvertence, omission, slackness, disregard, inattention, oversight, slight, disrespect, indifference, remissness, thoughtlessness, failure, neglectfulness"
-new, fresh, modern, new-made, upstart, juvenile, new-fangled, novel, young, late, new-fashioned, recent, youthful"
-nimble, active, alert, bustling, prompt, speedy, spry, agile, brisk, lively, quick, sprightly, swift"
-normal, common, natural, ordinary, regular, typical, usual"
-notwithstanding, altho(ugh), howbeit, nevertheless, tho(ugh), but, however, still, yet"
-notwithstanding, despite, in spite of"
-oath, adjuration, curse, profane swearing, affidavit, cursing, profanity, anathema, denunciation, reprobation, ban, execration, swearing, blaspheming, imprecation, sworn statement, blasphemy, malediction, vow"
-obscure, abstruse, darksome, dusky, involved, ambiguous, deep, enigmatical, muddy, cloudy, dense, hidden, mysterious, complex, difficult, incomprehensible, profound, complicated, dim, indistinct, turbid, dark, doubtful, intricate, unintelligible"
-obsolete, ancient, archaic, obsolescent, out of date, antiquated, disused, old, rare"
-obstinate, contumacious, headstrong, mulish, resolute, decided, heady, obdurate, resolved, determined, immovable, opinionated, stubborn, dogged, indomitable, persistent, unconquerable, firm, inflexible, pertinacious, unflinching, fixed, intractable, refractory, unyielding"
-obstruct, arrest, check, embarrass, interrupt, stay, bar, choke, hinder, oppose, stop, barricade, clog, impede, retard"
-old, aged, decrepit, immemorial, senile, ancient, elderly, olden, time-honored, antiquated, gray, patriarchal, time-worn, antique, hoary, remote, venerable"
-operation, action, effect, force, performance, result, agency, execution, influence, procedure"
-order, command, injunction, mandate, requirement, direction, instruction, prohibition"
+general, common, familiar, ordinary, universal, commonplace, frequent, popular, usual, customary, habitual, prevalent, everyday, normal, public
+generous, bountiful, free, liberal, noble, chivalrous, free-handed, magnanimous, open-handed, disinterested, free-hearted, munificent, open-hearted
+genius, talent, talents
+get, achieve, attain, gain, procure, secure, acquire, earn, obtain, receive, win
+gift, benefaction, boon, bribe, grant, largess, bequest, bounty, donation, gratuity, present
+give, bestow, communicate, deliver, grant, supply, cede, confer, furnish, impart
+govern, command, curb, influence, mold, reign over, rule, control, direct, manage, reign, restrain, sway
+grief, affliction, melancholy, regret, sorrow, trouble, distress, mourning, sadness, tribulation
+habit, custom, habitude, routine, system, use, fashion, practise, rule, usage, wont
+happen, bechance, chance, fall out, supervene, befall, come to pass, occur, take place, betide, fall
+happiness, blessedness, delight, gladness, pleasure, bliss, ecstasy, gratification, rapture, cheer, enjoyment, joy, rejoicing, comfort, felicity, merriment, satisfaction, contentment, gaiety, mirth, triumph
+happy, blessed, cheering, gay, lucky, rejoiced, blissful, cheery, glad, merry, rejoicing, blithe, delighted, jocund, mirthful, smiling, blithesome, delightful, jolly, pleased, sprightly, bright, dexterous, joyful, prosperous, successful, buoyant, felicitous, joyous, rapturous, sunny, cheerful, fortunate
+harmony, accord, concurrence, consistency, uniformity, accordance, conformity, consonance, union, agreement, congruity, symmetry, unison, amity, consent, unanimity, unity, concord
+harvest, crop, harvest-home, ingathering, result, fruit, harvesting, proceeds, return, growth, harvest-tide, produce, yield, harvest-feast, harvest-time, product, harvest-festival, increase, reaping
+hatred, abhorrence, detestation, hostility, rancor, anger, dislike, ill will, repugnance, animosity, enmity, malevolence, resentment, antipathy, grudge, malice, revenge, aversion, hate, malignity, spite
+have, be in possession of, hold, occupy, own, possess, be possessed of
+hazard, accident, chance, danger, jeopardy, risk, casualty, contingency, fortuity, peril, venture
+healthy, hale, hygienic, sanitary, vigorous, healthful, salubrious, sound, well, hearty, salutary, strong, wholesome
+help, abet, befriend, foster, succor, uphold, aid, cooperate, second, support, assist, encourage, stand by, sustain
+heretic, dissenter, heresiarch, non-conformist, schismatic
+heterogeneous, confused, mingled, unhomogeneous, conglomerate, miscellaneous, unlike, discordant, mixed, variant, dissimilar, non-homogeneous, various
+hide, bury, cover, entomb, overwhelm, suppress, cloak, disguise, inter, screen, veil, conceal, dissemble, mask, secrete
+high, elevated, exalted, noble, steep, towering, eminent, lofty, proud, tall, uplifted
+hinder, baffle, clog, foil, obstruct, retard, balk, counteract, frustrate, oppose, stay, bar, delay, hamper, prevent, stop, block, embarrass, impede, resist, thwart, check, encumber, interrupt
+history, account, biography, muniment, record, annals, chronicle, narration, register, archives, memoir, narrative, story, autobiography, memorial, recital
+holy, blessed, devoted, hallowed, saintly, consecrated, divine, sacred, set apart
+home, abode, dwelling, habitation, hearthstone, ingleside, domicil, fireside, hearth, house, residence
+honest, candid, frank, ingenuous, true, equitable, genuine, just, trustworthy, fair, good, sincere, trusty, faithful, honorable, straightforward, upright
+horizontal, even, flat, level, plain, plane
+humane, benevolent, compassionate, human, pitying, benignant, forgiving, kind, sympathetic, charitable, gentle, kind-hearted, tender, clement, gracious, merciful, tender-hearted
+hunt, chase, hunting, inquisition, pursuit, search
+hypocrisy, affectation, formalism, pretense, sanctimony, cant, pharisaism, sanctimoniousness, sham, dissimulation
+hypocrite, cheat, deceiver, dissembler, impostor, pretender
+hypothesis, conjecture, scheme, supposition, system, guess, speculation, surmise, theory
+idea, apprehension, design, impression, plan, archetype, fancy, judgment, purpose, belief, fantasy, model, sentiment, conceit, ideal, notion, supposition, concept, image, opinion, theory, conception, imagination, pattern, thought
+ideal, archetype, model, pattern, prototype, standard, idea, original
+idiocy, fatuity, foolishness, incapacity, stupidity, folly, imbecility, senselessness
+idle, inactive, inert, slothful, trifling, unoccupied, indolent, lazy, sluggish, unemployed, vacant
+ignorant, ill-informed, unenlightened, unlearned, untaught, illiterate, uninformed, unlettered, untutored, uneducated, uninstructed, unskilled
+imagination, fancy, fantasy, phantasy
+immediately, at once, instanter, presently, straightway, directly, instantly, right away, this instant, forthwith, now, right off, without delay
+immerse, bury, dip, douse, duck, immerge, plunge, sink, submerge
+imminent, impending, threatening
+impediment, bar, clog, encumbrance, obstacle, barrier, difficulty, hindrance, obstruction
+impudence, assurance, impertinence, intrusiveness, presumption, boldness, incivility, officiousness, rudeness, effrontery, insolence, pertness, sauciness, forwardness
+incongruous, absurd, ill-matched, inharmonious, conflicting, inapposite, irreconcilable, contradictory, inappropriate, mismatched, contrary, incommensurable, discordant, incompatible, repugnant, discrepant, inconsistent, unsuitable
+induction, deduction, inference
+industrious, active, busy, employed, occupied, assiduous, diligent, engaged, sedulous
+industry, application, diligence, labor, persistence, assiduity, effort, pains, sedulousness, attention, exertion, patience, constancy, intentness, perseverance
+infinite, absolute, illimitable, limitless, unconditioned, boundless, immeasurable, measureless, unfathomable, countless, innumerable, numberless, unlimited, eternal, interminable, unbounded, unmeasured
+influence, actuate, draw, impel, induce, move, stir, compel, drive, incite, instigate, persuade, sway, dispose, excite, incline, lead, prompt, urge
+inherent, congenital, indispensable, innate, native, essential, indwelling, inseparable, natural, immanent, infixed, internal, subjective, inborn, ingrained, intrinsic, inbred, inhering
+injury, blemish, disadvantage, hurt, loss, prejudice, damage, evil, impairment, mischief, wrong, detriment, harm, injustice, outrage
+injustice, grievance, injury, unfairness, unrighteousness, wrong, iniquity
+innocent, blameless, guiltless, inoffensive, spotless, clean, harmless, pure, stainless, clear, immaculate, right, upright, faultless, innocuous, righteous, virtuous, guileless, innoxious, sinless
+inquisitive, curious, meddlesome, peeping, scrutinizing, inquiring, meddling, prying, searching, intrusive
+insanity, aberration, delirium, frenzy, madness, alienation, dementia, hallucination, mania, craziness, derangement, lunacy, monomania
+interpose, arbitrate, intercept, intermeddle, meddle, intercede, interfere, interrupt, mediate
+involve, complicate, embroil, implicate, include, embarrass, entangle, imply, overwhelm
+journey, excursion, pilgrimage, transit, trip, expedition, tour, travel, voyage
+judge, arbiter, arbitrator, justice, referee, umpire
+justice, equity, impartiality, legality, rightfulness, fairness, integrity, rectitude, truth, fair play, justness, right, uprightness, faithfulness, law, righteousness, virtue, honor, lawfulness
+keep, carry, defend, hold, preserve, retain, carry on, detain, maintain, protect, support, celebrate, fulfil, obey, refrain, sustain, conduct, guard, observe, restrain, withhold
+kill, assassinate, despatch, massacre, put to death, slay, butcher, execute, murder, slaughter
+kin, affinity, blood, descent, kind, race, alliance, consanguinity, family, kindred, relationship, birth
+knowledge, acquaintance, erudition, learning, recognition, apprehension, experience, light, scholarship, cognition, information, lore, science, cognizance, intelligence, perception, wisdom, comprehension, intuition
+language, barbarism, expression, patois, vernacular, dialect, idiom, speech, vocabulary, diction, mother tongue, tongue
+large, abundant, coarse, gigantic, long, ample, colossal, grand, massive, big, commodious, great, spacious, broad, considerable, huge, vast, bulky, enormous, immense, wide, capacious, extensive
+law, canon, economy, legislation, principle, code, edict, mandate, regulation, command, enactment, order, rule, commandment, formula, ordinance, statute, decree, jurisprudence, polity
+liberty, emancipation, freedom, independence, license
+light, blaze, gleam, glow, shimmer, flame, gleaming, illumination, shine, flare, glimmer, incandescence, shining, flash, glistening, luster, sparkle, flicker, glistering, scintillation, twinkle, glare, glitter, sheen, twinkling
+likely, apt, conceivable, liable, probable, credible, conjectural, presumable, reasonable
+listen, attend, hark, harken, hear, heed, list
+literature, belles-lettres, literary productions, publications, books, literary works, writings
+load, burden, charge, encumbrance, incubus, pack, cargo, clog, freight, lading, weight
+lock, bar, catch, fastening, hook, bolt, clasp, hasp, latch
+look, behold, discern, inspect, see, view, contemplate, gaze, regard, stare, watch, descry, glance, scan, survey
+love, affection, charity, friendship, regard, attachment, devotion, liking, tenderness, attraction, fondness
+make, become, constrain, fabricate, manufacture, bring about, construct, fashion, occasion, bring into being, create, force, perform, bring to pass, do, frame, reach, cause, effect, get, render, compel, establish, make out, require, compose, execute, make up, shape, constitute
+marriage, conjugal union, espousals, nuptials, spousals, wedding, espousal, matrimony, spousal, union, wedlock
+masculine, male, manful, manlike, manly, mannish, virile
+massacre, butchery, carnage, havoc, slaughter
+meddlesome, impertinent, intrusive, meddling, obtrusive, officious
+melody, harmony, music, symphony, unison
+memory, recollection, reminiscence, retrospect, retrospection, remembrance
+mercy, benevolence, favor, kindness, mildness, benignity, forbearance, lenience, pardon, blessing, forgiveness, leniency, pity, clemency, gentleness, lenity, tenderness, compassion, grace
+meter, euphony, measure, rhythm, verse
+mind, brain, instinct, reason, spirit, consciousness, intellect, sense, thought, disposition, intelligence, soul, understanding
+minute, circumstantial, diminutive, little, slender, comminuted, exact, particular, small, critical, fine, precise, tiny, detailed
+misfortune, adversity, disappointment, ill fortune, ruin, affliction, disaster, ill luck, sorrow, bereavement, distress, misadventure, stroke, blow, failure, mischance, trial, calamity, hardship, misery, tribulation, chastening, harm, mishap, trouble, chastisement, ill, reverse, visitation
+mob, canaille, dregs of the people, masses, rabble, crowd, lower classes, populace, the vulgar
+model, archetype, facsimile, original, representation, copy, image, pattern, standard, design, imitation, prototype, type, example, mold
+modesty, backwardness, constraint, reserve, timidity, bashfulness, coyness, shyness, unobtrusiveness, coldness, diffidence
+money, bills, cash, funds, property, bullion, coin, gold, silver, capital, currency, notes, specie
+morose, acrimonious, dogged, ill-natured, splenetic, churlish, gloomy, severe, sulky, crabbed, gruff, snappish, sullen, crusty, ill-humored, sour, surly
+motion, act, change, movement, process, transition, action, move, passage, transit
+mourn, bemoan, deplore, lament, regret, rue, sorrow, bewail, grieve
+mutual, common, correlative, interchangeable, joint, reciprocal
+mysterious, abstruse, inexplicable, recondite, cabalistic, inscrutable, secret, dark, mystic, transcendental, enigmatical, mystical, unfathomable, hidden, obscure, unfathomed, incomprehensible, occult, unknown
+name, agnomen, denomination, prenomen, surname, appellation, designation, style, title, cognomen, epithet
+native, indigenous, innate, natal, natural, original
+nautical, marine, maritime, naval, ocean, oceanic
+neat, clean, dapper, nice, prim, tidy, cleanly, natty, orderly, spruce, trim
+necessary, essential, infallible, required, unavoidable, indispensable, needed, requisite, undeniable, inevitable, needful
+necessity, compulsion, fatality, requisite, destiny, fate, sine qua non, emergency, indispensability, unavoidableness, essential, indispensableness, urgency, exigency, need, want, extremity, requirement
+neglect, carelessness, heedlessness, negligence, scorn, default, inadvertence, omission, slackness, disregard, inattention, oversight, slight, disrespect, indifference, remissness, thoughtlessness, failure, neglectfulness
+new, fresh, modern, new-made, upstart, juvenile, new-fangled, novel, young, late, new-fashioned, recent, youthful
+nimble, active, alert, bustling, prompt, speedy, spry, agile, brisk, lively, quick, sprightly, swift
+normal, common, natural, ordinary, regular, typical, usual
+notwithstanding, altho(ugh), howbeit, nevertheless, tho(ugh), but, however, still, yet
+notwithstanding, despite, in spite of
+oath, adjuration, curse, profane swearing, affidavit, cursing, profanity, anathema, denunciation, reprobation, ban, execration, swearing, blaspheming, imprecation, sworn statement, blasphemy, malediction, vow
+obscure, abstruse, darksome, dusky, involved, ambiguous, deep, enigmatical, muddy, cloudy, dense, hidden, mysterious, complex, difficult, incomprehensible, profound, complicated, dim, indistinct, turbid, dark, doubtful, intricate, unintelligible
+obsolete, ancient, archaic, obsolescent, out of date, antiquated, disused, old, rare
+obstinate, contumacious, headstrong, mulish, resolute, decided, heady, obdurate, resolved, determined, immovable, opinionated, stubborn, dogged, indomitable, persistent, unconquerable, firm, inflexible, pertinacious, unflinching, fixed, intractable, refractory, unyielding
+obstruct, arrest, check, embarrass, interrupt, stay, bar, choke, hinder, oppose, stop, barricade, clog, impede, retard
+old, aged, decrepit, immemorial, senile, ancient, elderly, olden, time-honored, antiquated, gray, patriarchal, time-worn, antique, hoary, remote, venerable
+operation, action, effect, force, performance, result, agency, execution, influence, procedure
+order, command, injunction, mandate, requirement, direction, instruction, prohibition
 ostentation, boast, flourish, parade, pompousness, vaunt, boasting, pageant, pomp, show, vaunting, display, pageantry, pomposity
-oversight, care, control, management, surveillance, charge, direction, superintendence, watch, command, inspection, supervision, watchfulness"
-pain, ache, distress, suffering, torture, agony, pang, throe, twinge, anguish, paroxysm, torment, wo(e)"
-palliate, apologize for, conceal, extenuate, hide, screen, cloak, cover, gloss over, mitigate, veil"
-pardon, absolve, condone, forgive, pass by, remit, acquit, excuse, overlook, pass over"
-pardon, absolution, amnesty, forgiveness, oblivion, acquittal, forbearance, mercy, remission"
-part	
-part, atom, fraction, member, section, component, fragment, particle, segment, constituent, ingredient, piece, share, division, instalment, portion, subdivision, element"
-particle, atom, grain, mite, scrap, whit, corpuscle, iota, molecule, shred, element, jot, scintilla, tittle"
-patience, calmness, forbearance, long-suffering, sufferance, composure, fortitude, resignation, endurance, leniency, submission"
-pay, allowance, hire, recompense, salary, compensation, honorarium, remuneration, stipend, earnings, payment, requital, wages, fee"
-people, commonwealth, nation, race, state, tribe, community, population"
-perceive, apprehend, comprehend, conceive, understand"
-perfect, absolute, consummate, holy, spotless, accurate, correct, ideal, stainless, blameless, entire, immaculate, unblemished, complete, faultless, sinless, undefiled, completed, finished"
-permanent, abiding, enduring, lasting, steadfast, changeless, fixed, perpetual, unchangeable, constant, immutable, persistent, unchanging, durable, invariable, stable"
-permission, allowance, authorization, leave, license, authority, consent, liberty, permit"
-pernicious, bad, evil, mischievous, pestilential, baneful, foul, noisome, poisonous, deadly, harmful, noxious, ruinous, deleterious, hurtful, perverting, unhealthful, destructive, injurious, pestiferous, unwholesome, detrimental, insalubrious"
-perplexity, amazement, bewilderment, distraction, doubt, astonishment, confusion, disturbance, embarrassment"
-persuade, allure, dispose, incline, move, bring over, entice, induce, prevail on or upon, coax, impel, influence, urge, convince, incite, lead, win over"
-pertness, boldness, forwardness, liveliness, sprightliness, briskness, impertinence, sauciness, flippancy, impudence, smartness"
-perverse, contrary, froward, petulant, untoward, factious, intractable, stubborn, wayward, fractious, obstinate, ungovernable, wilful"
-physical, bodily, corporeal, natural, tangible, corporal, material, sensible, visible"
-pique, displeasure, irritation, offense, resentment, umbrage, grudge"
-pitiful, abject, lamentable, paltry, sorrowful, base, miserable, pathetic, touching, contemptible, mournful, piteous, woful, despicable, moving, pitiable, wretched"
-pity, commiseration, condolence, sympathy, tenderness, compassion, mercy"
-plant, seed, seed down, set, set out, sow"
-plead, advocate, ask, beseech, implore, solicit, argue, beg, entreat, press, urge"
-pleasant, agreeable, good-natured, kindly, pleasing, attractive, kind, obliging, pleasurable"
-plentiful, abounding, bountiful, generous, plenteous, abundant, complete, large, profuse, adequate, copious, lavish, replete, affluent, enough, liberal, rich, ample, exuberant, luxuriant, sufficient, bounteous, full, overflowing, teeming"
-poetry, meter, numbers, poesy, song, metrical composition, poem, rime, verse"
-polite, accomplished, courtly, genteel, urbane, civil, cultivated, gracious, well-behaved, complaisant, cultured, obliging, well-bred, courteous, elegant, polished, well-mannered"
-polity, constitution, policy, form or system of government"
-portion, lot, parcel, part, proportion, share"
-poverty, beggary, distress, mendicancy, pauperism, privation, destitution, indigence, need, penury, want"
-power, ability, competency, expertness, readiness, aptitude, dexterity, faculty, skill, capability, efficacy, force, strength, capacity, efficiency, might, susceptibility, cleverness, energy, qualification, talent, cogency"
-praise, acclaim, approbation, compliment, laudation, acclamation, approval, encomium, panegyric, adulation, cheering, eulogy, plaudit, applause, cheers, flattery, sycophancy"
-pray, ask, bid, entreat, invoke, request, beg, call upon, implore, petition, supplicate, beseech, conjure, importune, plead"
-precarious, doubtful, hazardous, risky, unsettled, dubious, insecure, unassured, unstable, equivocal, perilous, uncertain, unsteady"
-precedent, antecedent, case, instance, pattern, authority, example, obiter dictum, warrant"
-predestination, fate, foreknowledge, foreordination, necessity"
-prejudice, bias, preconception, presumption, partiality, prepossession, unfairness"
-pretense, affectation, disguise, pretext, simulation, air, dissimulation, ruse, subterfuge, assumption, excuse, seeming, trick, cloak, mask, semblance, wile, color, pretension, show"
-prevent, anticipate, forestall, obviate, preclude"
-previous, antecedent, foregoing, front, preceding, anterior, former, introductory, preliminary, earlier, forward, precedent, prior"
-price, charge, cost, expenditure, expense, outlay, value, worth"
-pride, arrogance, ostentation, self-exaltation, assumption, presumption, self-respect, conceit, reserve, superciliousness, disdain, self-complacency, vainglory, haughtiness, self-conceit, vanity, insolence, self-esteem"
-primeval, aboriginal, indigenous, patriarchal, primitive, ancient, native, primal, primordial, autochthonic, old, primary, pristine, immemorial, original, prime, uncreated"
-profit, advantage, expediency, proceeds, service, avail, gain, receipts, usefulness, benefit, good, return, utility, emolument, improvement, returns, value"
-progress, advance, development, improvement, proficiency, advancement, growth, increase, progression, attainment"
-prohibit, debar, forbid, inhibit, preclude, disallow, hinder, interdict, prevent"
-promote, advance, encourage, forward, prefer, raise, aid, exalt, foster, push, urge forward, assist, excite, further, push on, urge on, elevate, foment, help"
-propitiation, atonement, expiation, reconciliation, satisfaction"
-propitious, auspicious, benignant, favorable, gracious, kindly, benign, clement, friendly, kind, merciful"
+oversight, care, control, management, surveillance, charge, direction, superintendence, watch, command, inspection, supervision, watchfulness
+pain, ache, distress, suffering, torture, agony, pang, throe, twinge, anguish, paroxysm, torment, wo(e)
+palliate, apologize for, conceal, extenuate, hide, screen, cloak, cover, gloss over, mitigate, veil
+pardon, absolve, condone, forgive, pass by, remit, acquit, excuse, overlook, pass over
+pardon, absolution, amnesty, forgiveness, oblivion, acquittal, forbearance, mercy, remission
+part
+part, atom, fraction, member, section, component, fragment, particle, segment, constituent, ingredient, piece, share, division, instalment, portion, subdivision, element
+particle, atom, grain, mite, scrap, whit, corpuscle, iota, molecule, shred, element, jot, scintilla, tittle
+patience, calmness, forbearance, long-suffering, sufferance, composure, fortitude, resignation, endurance, leniency, submission
+pay, allowance, hire, recompense, salary, compensation, honorarium, remuneration, stipend, earnings, payment, requital, wages, fee
+people, commonwealth, nation, race, state, tribe, community, population
+perceive, apprehend, comprehend, conceive, understand
+perfect, absolute, consummate, holy, spotless, accurate, correct, ideal, stainless, blameless, entire, immaculate, unblemished, complete, faultless, sinless, undefiled, completed, finished
+permanent, abiding, enduring, lasting, steadfast, changeless, fixed, perpetual, unchangeable, constant, immutable, persistent, unchanging, durable, invariable, stable
+permission, allowance, authorization, leave, license, authority, consent, liberty, permit
+pernicious, bad, evil, mischievous, pestilential, baneful, foul, noisome, poisonous, deadly, harmful, noxious, ruinous, deleterious, hurtful, perverting, unhealthful, destructive, injurious, pestiferous, unwholesome, detrimental, insalubrious
+perplexity, amazement, bewilderment, distraction, doubt, astonishment, confusion, disturbance, embarrassment
+persuade, allure, dispose, incline, move, bring over, entice, induce, prevail on or upon, coax, impel, influence, urge, convince, incite, lead, win over
+pertness, boldness, forwardness, liveliness, sprightliness, briskness, impertinence, sauciness, flippancy, impudence, smartness
+perverse, contrary, froward, petulant, untoward, factious, intractable, stubborn, wayward, fractious, obstinate, ungovernable, wilful
+physical, bodily, corporeal, natural, tangible, corporal, material, sensible, visible
+pique, displeasure, irritation, offense, resentment, umbrage, grudge
+pitiful, abject, lamentable, paltry, sorrowful, base, miserable, pathetic, touching, contemptible, mournful, piteous, woful, despicable, moving, pitiable, wretched
+pity, commiseration, condolence, sympathy, tenderness, compassion, mercy
+plant, seed, seed down, set, set out, sow
+plead, advocate, ask, beseech, implore, solicit, argue, beg, entreat, press, urge
+pleasant, agreeable, good-natured, kindly, pleasing, attractive, kind, obliging, pleasurable
+plentiful, abounding, bountiful, generous, plenteous, abundant, complete, large, profuse, adequate, copious, lavish, replete, affluent, enough, liberal, rich, ample, exuberant, luxuriant, sufficient, bounteous, full, overflowing, teeming
+poetry, meter, numbers, poesy, song, metrical composition, poem, rime, verse
+polite, accomplished, courtly, genteel, urbane, civil, cultivated, gracious, well-behaved, complaisant, cultured, obliging, well-bred, courteous, elegant, polished, well-mannered
+polity, constitution, policy, form or system of government
+portion, lot, parcel, part, proportion, share
+poverty, beggary, distress, mendicancy, pauperism, privation, destitution, indigence, need, penury, want
+power, ability, competency, expertness, readiness, aptitude, dexterity, faculty, skill, capability, efficacy, force, strength, capacity, efficiency, might, susceptibility, cleverness, energy, qualification, talent, cogency
+praise, acclaim, approbation, compliment, laudation, acclamation, approval, encomium, panegyric, adulation, cheering, eulogy, plaudit, applause, cheers, flattery, sycophancy
+pray, ask, bid, entreat, invoke, request, beg, call upon, implore, petition, supplicate, beseech, conjure, importune, plead
+precarious, doubtful, hazardous, risky, unsettled, dubious, insecure, unassured, unstable, equivocal, perilous, uncertain, unsteady
+precedent, antecedent, case, instance, pattern, authority, example, obiter dictum, warrant
+predestination, fate, foreknowledge, foreordination, necessity
+prejudice, bias, preconception, presumption, partiality, prepossession, unfairness
+pretense, affectation, disguise, pretext, simulation, air, dissimulation, ruse, subterfuge, assumption, excuse, seeming, trick, cloak, mask, semblance, wile, color, pretension, show
+prevent, anticipate, forestall, obviate, preclude
+previous, antecedent, foregoing, front, preceding, anterior, former, introductory, preliminary, earlier, forward, precedent, prior
+price, charge, cost, expenditure, expense, outlay, value, worth
+pride, arrogance, ostentation, self-exaltation, assumption, presumption, self-respect, conceit, reserve, superciliousness, disdain, self-complacency, vainglory, haughtiness, self-conceit, vanity, insolence, self-esteem
+primeval, aboriginal, indigenous, patriarchal, primitive, ancient, native, primal, primordial, autochthonic, old, primary, pristine, immemorial, original, prime, uncreated
+profit, advantage, expediency, proceeds, service, avail, gain, receipts, usefulness, benefit, good, return, utility, emolument, improvement, returns, value
+progress, advance, development, improvement, proficiency, advancement, growth, increase, progression, attainment
+prohibit, debar, forbid, inhibit, preclude, disallow, hinder, interdict, prevent
+promote, advance, encourage, forward, prefer, raise, aid, exalt, foster, push, urge forward, assist, excite, further, push on, urge on, elevate, foment, help
+propitiation, atonement, expiation, reconciliation, satisfaction
+propitious, auspicious, benignant, favorable, gracious, kindly, benign, clement, friendly, kind, merciful
 proposal, bid, offer, overture, proposition
-protract, continue, delay, elongate, lengthen, procrastinate, defer, draw out, extend, postpone, prolong"
-proverb, adage, axiom, maxim, saw, aphorism, byword, motto, saying, apothegm, dictum, precept, truism"
-prowess, bravery, gallantry, intrepidity, courage, heroism, valor"
-prudence, care, discretion, judgment, carefulness, forecast, judiciousness, caution, foresight, providence, circumspection, forethought, wisdom, consideration, frugality"
-purchase, acquire, barter for, get, procure, secure, bargain for, buy, obtain"
-pure, absolute, guiltless, simple, unmixed, chaste, holy, spotless, unpolluted, classic, immaculate, stainless, unspotted, classical, incorrupt, true, unstained, clean, innocent, unadulterated, unsullied, clear, mere, unblemished, untainted, continent, perfect, uncorrupted, untarnished, genuine, real, undefiled, upright, guileless, sheer, unmingled, virtuous"
-put, deposit, lay, place, set"
-queer, anomalous, erratic, odd, strange, bizarre, extraordinary, peculiar, uncommon, comical, fantastic, preposterous, unique, crotchety, funny, quaint, unmatched, curious, grotesque, ridiculous, unusual, droll, laughable, singular, whimsical, eccentric, ludicrous"
-quicken, accelerate, drive on, hasten, promote, advance, expedite, hurry, speed, despatch, facilitate, make haste, urge, drive, further, press forward, urge on"
-quote, cite, extract, plagiarize, repeat, excerpt, paraphrase, recite"
-racy, flavorous, lively, pungent, spicy, forcible, piquant, rich, spirited"
-radical, complete, ingrained, perfect, constitutional, innate, positive, entire, native, primitive, essential, natural, thorough, extreme, organic, thoroughgoing, fundamental, original, total"
-rare, curious, odd, scarce, unique, extraordinary, peculiar, singular, unparalleled, incomparable, precious, strange, unprecedented, infrequent, remarkable, uncommon, unusual"
-reach, arrive, attain, come to, enter, gain, get to, land"
-real, actual, demonstrable, genuine, true, authentic, developed, positive, unquestionable, certain, essential, substantial, veritable"
-reason, argue, debate, discuss, establish, question, contend, demonstrate, dispute, prove, wrangle, controvert"
-reason, account, cause, end, motive, principle, aim, consideration, ground, object, purpose, argument, design"
-reasoning, argument, argumentation, debate, ratiocination"
-rebellious, contumacious, mutinous, uncontrollable, disobedient, refractory, ungovernable, insubordinate, seditious, unmanageable, intractable"
-record, account, enrolment, instrument, register, archive, entry, inventory, roll, catalogue, enumeration, memorandum, schedule, chronicle, history, memorial, scroll, document, inscription, muniment"
-recover, be cured or healed, heal, recuperate, restore, be restored, reanimate, regain, resume, cure, recruit, repossess, retrieve"
-refinement, civilization, cultivation, culture, elegance, politeness"
-refute, confound, confute, disprove, overthrow, repel"
-reliable, trustworthy, trusty"
-religion, devotion, godliness, morality, piety, theology, faith, holiness, pietism, righteousness, worship"
-reluctant, averse, disinclined, loath, slow, backward, indisposed, opposed, unwilling"
-remark, annotation, comment, note, observation, utterance"
-rend, break, cleave, mangle, rive, sever, sunder, burst, lacerate, rip, rupture, slit, tear"
-renounce, abandon, disavow, disown, recant, repudiate, abjure, discard, forswear, refuse, retract, deny, disclaim, recall, reject, revoke"
-repentance, compunction, contriteness, regret, self-condemnation, contrition, penitence, remorse, sorrow"
-report, account, narrative, rehearsal, rumor, story, description, recital, relation, statement, tale, narration, record"
-reproof, admonition, chiding, disapproval, reprimand, animadversion, comment, objurgation, reproach, blame, condemnation, rebuke, reproval, censure, criticism, reflection, upbraiding, check, denunciation, reprehension"
-reprove, admonish, condemn, reprimand, blame, expostulate with, reproach, censure, find fault with, take to task, chasten, rebuke, upbraid, check, remonstrate with, warn, chide, reprehend"
-requite, avenge, punish, remunerate, revenge, compensate, quit, repay, reward, pay, reciprocate, retaliate, satisfy, pay off, recompense, return, settle with"
-rest, calm, pause, quietness, slumber, calmness, peace, quietude, stay, cessation, peacefulness, recreation, stillness, ease, quiescence, repose, stop, intermission, quiet, sleep, tranquillity"
-restive, balky, impatient, rebellious, restless, fidgety, intractable, recalcitrant, skittish, fractious, mulish, refractory, stubborn, fretful, mutinous, resentful, unruly, frisky, obstinate, restiff, vicious"
-restrain, abridge, constrain, hold in, keep under, bridle, curb, keep, repress, check, hinder, keep back, restrict, circumscribe, hold, keep down, suppress, confine, hold back, keep in, withhold"
-retirement, loneliness, privacy, seclusion, solitude"
-revelation, apocalypse, disclosure, manifestation"
-revenge, avenging, retaliation, retribution, vengeance, requital"
-revolution, anarchy, insurrection, revolt, confusion, lawlessness, riot, disintegration, mutiny, sedition, disorder, rebellion, tumult, insubordination"
-revolve, roll, rotate, turn"
-riddle, conundrum, enigma, paradox, problem, puzzle"
-right, claim, franchise, liberty, prerogative, exemption, immunity, license, privilege"
-rise, arise, ascend, emanate, flow, issue, proceed, spring"
-robber, bandit, depredator, freebooter, pirate, brigand, despoiler, highwayman, plunderer, buccaneer, footpad, marauder, raider, burglar, forager, pillager, thief"
-royal, august, kingly, majestic, princely, kinglike, magnificent, munificent, regal"
-rustic, agricultural, coarse, pastoral, uncouth, artless, countrified, plain, unpolished, awkward, country, rude, unsophisticated, boorish, hoidenish, rural, untaught, bucolic, inelegant, sylvan, verdant, clownish, outlandish"
-sacrament, ceremony, eucharist, observance, rite, solemnity, communion, Lord's Supper, ordinance, service"
-sagacious, able, intelligent, perspicacious, sensible, acute, keen, quick of scent, sharp, apt, keen-sighted, quick-scented, sharp-witted, clear-sighted, keen-witted, rational, shrewd, discerning, judicious, sage, wise"
-sale, bargain, barter, change, deal, exchange, trade"
-sample, case, exemplification, instance, example, illustration, specimen"
-satisfy, cloy, fill, sate, suffice, content, glut, satiate, surfeit"
-scholar, disciple, learner, pupil, savant, student"
-science, art, knowledge"
-security, bail, earnest, gage, pledge, surety"
-self-abnegation, self-control, self-devotion, self-renunciation, self-denial, self-immolation, self-sacrifice"
-send, cast, despatch, emit, impel, propel, dart, discharge, fling, lance, sling, delegate, dismiss, forward, launch, throw, depute, drive, hurl, project, transmit"
-sensation, emotion, feeling, perception, sense"
-sensibility, feeling, impressibility, sensitiveness, susceptibility"
-severe, austere, inflexible, rigorous, uncompromising, hard, morose, stern, unmitigated, harsh, relentless, stiff, unrelenting, inexorable, rigid, strict, unyielding"
-shake, agitate, jar, quake, shiver, totter, brandish, joggle, quaver, shudder, tremble, flap, jolt, quiver, sway, vibrate, fluctuate, jounce, reel, swing, wave, flutter, oscillate, rock, thrill, waver"
-shelter, cover, guard, protect, shield, defend, harbor, screen, ward"
-sign, emblem, mark, presage, symbol, token, indication, note, prognostic, symptom, type, manifestation, omen, signal"
-sin, crime, fault, misdeed, vice, criminality, guilt, offense, viciousness, delinquency, ill-doing, transgression, wickedness, depravity, immorality, ungodliness, wrong, evil, iniquity, unrighteousness, wrong-doing"
-sing, carol, chant, chirp, chirrup, hum, warble"
-skeptic, agnostic, deist, doubter, infidel, unbeliever, atheist, disbeliever, freethinker"
-sketch, brief, draft, outline, plan, design, drawing, picture, skeleton"
-skilful, accomplished, apt, dexterous, happy, proficient, adept, clever, expert, ingenious, skilled, adroit, deft, handy, practised, trained"
-slander, asperse, decry, disparage, revile, backbite, defame, libel, traduce, calumniate, depreciate, malign, vilify"
-slang, cant, colloquialism, vulgarism, vulgarity"
-slow, dawdling, dilatory, gradual, lingering, slack, delaying, drowsy, inactive, moderate, sluggish, deliberate, dull, inert, procrastinating, tardy"
-sneer, fling, gibe, jeer, mock, scoff, taunt"
-socialism, collectivism, communism, fabianism"
-sound, noise, note, tone"
-speak, announce, converse, discourse, say, articulate, declaim, enunciate, talk, chat, declare, express, tell, chatter, deliver, pronounce, utter"
-speech, address, dissertation, oration, speaking, discourse, harangue, oratory, talk, disquisition, language, sermon, utterance"
-spontaneous, automatic, impulsive, involuntary, voluntary, free, instinctive, unbidden, willing"
-spy, detective, emissary, scout"
-stain, blot, discolor, dishonor, soil, sully, tinge, color, disgrace, dye, spot, tarnish, tint"
-state, affirm, aver, declare, predicate, set forth, allege, avouch, depose, pronounce, specify, assert, avow, express, propound, swear, asseverate, certify, inform, protest, tell, assure, claim, maintain, say, testify"
-steep, abrupt, high, precipitous, sharp, sheer"
-storm, agitation, disturbance, tempest"
-story, account, legend, narrative, recital, relation, anecdote, myth, novel, record, tale, incident, narration"
-stupidity, apathy, insensibility, slowness, stupefaction, dulness, obtuseness, sluggishness, stupor"
+protract, continue, delay, elongate, lengthen, procrastinate, defer, draw out, extend, postpone, prolong
+proverb, adage, axiom, maxim, saw, aphorism, byword, motto, saying, apothegm, dictum, precept, truism
+prowess, bravery, gallantry, intrepidity, courage, heroism, valor
+prudence, care, discretion, judgment, carefulness, forecast, judiciousness, caution, foresight, providence, circumspection, forethought, wisdom, consideration, frugality
+purchase, acquire, barter for, get, procure, secure, bargain for, buy, obtain
+pure, absolute, guiltless, simple, unmixed, chaste, holy, spotless, unpolluted, classic, immaculate, stainless, unspotted, classical, incorrupt, true, unstained, clean, innocent, unadulterated, unsullied, clear, mere, unblemished, untainted, continent, perfect, uncorrupted, untarnished, genuine, real, undefiled, upright, guileless, sheer, unmingled, virtuous
+put, deposit, lay, place, set
+queer, anomalous, erratic, odd, strange, bizarre, extraordinary, peculiar, uncommon, comical, fantastic, preposterous, unique, crotchety, funny, quaint, unmatched, curious, grotesque, ridiculous, unusual, droll, laughable, singular, whimsical, eccentric, ludicrous
+quicken, accelerate, drive on, hasten, promote, advance, expedite, hurry, speed, despatch, facilitate, make haste, urge, drive, further, press forward, urge on
+quote, cite, extract, plagiarize, repeat, excerpt, paraphrase, recite
+racy, flavorous, lively, pungent, spicy, forcible, piquant, rich, spirited
+radical, complete, ingrained, perfect, constitutional, innate, positive, entire, native, primitive, essential, natural, thorough, extreme, organic, thoroughgoing, fundamental, original, total
+rare, curious, odd, scarce, unique, extraordinary, peculiar, singular, unparalleled, incomparable, precious, strange, unprecedented, infrequent, remarkable, uncommon, unusual
+reach, arrive, attain, come to, enter, gain, get to, land
+real, actual, demonstrable, genuine, true, authentic, developed, positive, unquestionable, certain, essential, substantial, veritable
+reason, argue, debate, discuss, establish, question, contend, demonstrate, dispute, prove, wrangle, controvert
+reason, account, cause, end, motive, principle, aim, consideration, ground, object, purpose, argument, design
+reasoning, argument, argumentation, debate, ratiocination
+rebellious, contumacious, mutinous, uncontrollable, disobedient, refractory, ungovernable, insubordinate, seditious, unmanageable, intractable
+record, account, enrolment, instrument, register, archive, entry, inventory, roll, catalogue, enumeration, memorandum, schedule, chronicle, history, memorial, scroll, document, inscription, muniment
+recover, be cured or healed, heal, recuperate, restore, be restored, reanimate, regain, resume, cure, recruit, repossess, retrieve
+refinement, civilization, cultivation, culture, elegance, politeness
+refute, confound, confute, disprove, overthrow, repel
+reliable, trustworthy, trusty
+religion, devotion, godliness, morality, piety, theology, faith, holiness, pietism, righteousness, worship
+reluctant, averse, disinclined, loath, slow, backward, indisposed, opposed, unwilling
+remark, annotation, comment, note, observation, utterance
+rend, break, cleave, mangle, rive, sever, sunder, burst, lacerate, rip, rupture, slit, tear
+renounce, abandon, disavow, disown, recant, repudiate, abjure, discard, forswear, refuse, retract, deny, disclaim, recall, reject, revoke
+repentance, compunction, contriteness, regret, self-condemnation, contrition, penitence, remorse, sorrow
+report, account, narrative, rehearsal, rumor, story, description, recital, relation, statement, tale, narration, record
+reproof, admonition, chiding, disapproval, reprimand, animadversion, comment, objurgation, reproach, blame, condemnation, rebuke, reproval, censure, criticism, reflection, upbraiding, check, denunciation, reprehension
+reprove, admonish, condemn, reprimand, blame, expostulate with, reproach, censure, find fault with, take to task, chasten, rebuke, upbraid, check, remonstrate with, warn, chide, reprehend
+requite, avenge, punish, remunerate, revenge, compensate, quit, repay, reward, pay, reciprocate, retaliate, satisfy, pay off, recompense, return, settle with
+rest, calm, pause, quietness, slumber, calmness, peace, quietude, stay, cessation, peacefulness, recreation, stillness, ease, quiescence, repose, stop, intermission, quiet, sleep, tranquillity
+restive, balky, impatient, rebellious, restless, fidgety, intractable, recalcitrant, skittish, fractious, mulish, refractory, stubborn, fretful, mutinous, resentful, unruly, frisky, obstinate, restiff, vicious
+restrain, abridge, constrain, hold in, keep under, bridle, curb, keep, repress, check, hinder, keep back, restrict, circumscribe, hold, keep down, suppress, confine, hold back, keep in, withhold
+retirement, loneliness, privacy, seclusion, solitude
+revelation, apocalypse, disclosure, manifestation
+revenge, avenging, retaliation, retribution, vengeance, requital
+revolution, anarchy, insurrection, revolt, confusion, lawlessness, riot, disintegration, mutiny, sedition, disorder, rebellion, tumult, insubordination
+revolve, roll, rotate, turn
+riddle, conundrum, enigma, paradox, problem, puzzle
+right, claim, franchise, liberty, prerogative, exemption, immunity, license, privilege
+rise, arise, ascend, emanate, flow, issue, proceed, spring
+robber, bandit, depredator, freebooter, pirate, brigand, despoiler, highwayman, plunderer, buccaneer, footpad, marauder, raider, burglar, forager, pillager, thief
+royal, august, kingly, majestic, princely, kinglike, magnificent, munificent, regal
+rustic, agricultural, coarse, pastoral, uncouth, artless, countrified, plain, unpolished, awkward, country, rude, unsophisticated, boorish, hoidenish, rural, untaught, bucolic, inelegant, sylvan, verdant, clownish, outlandish
+sacrament, ceremony, eucharist, observance, rite, solemnity, communion, Lord's Supper, ordinance, service
+sagacious, able, intelligent, perspicacious, sensible, acute, keen, quick of scent, sharp, apt, keen-sighted, quick-scented, sharp-witted, clear-sighted, keen-witted, rational, shrewd, discerning, judicious, sage, wise
+sale, bargain, barter, change, deal, exchange, trade
+sample, case, exemplification, instance, example, illustration, specimen
+satisfy, cloy, fill, sate, suffice, content, glut, satiate, surfeit
+scholar, disciple, learner, pupil, savant, student
+science, art, knowledge
+security, bail, earnest, gage, pledge, surety
+self-abnegation, self-control, self-devotion, self-renunciation, self-denial, self-immolation, self-sacrifice
+send, cast, despatch, emit, impel, propel, dart, discharge, fling, lance, sling, delegate, dismiss, forward, launch, throw, depute, drive, hurl, project, transmit
+sensation, emotion, feeling, perception, sense
+sensibility, feeling, impressibility, sensitiveness, susceptibility
+severe, austere, inflexible, rigorous, uncompromising, hard, morose, stern, unmitigated, harsh, relentless, stiff, unrelenting, inexorable, rigid, strict, unyielding
+shake, agitate, jar, quake, shiver, totter, brandish, joggle, quaver, shudder, tremble, flap, jolt, quiver, sway, vibrate, fluctuate, jounce, reel, swing, wave, flutter, oscillate, rock, thrill, waver
+shelter, cover, guard, protect, shield, defend, harbor, screen, ward
+sign, emblem, mark, presage, symbol, token, indication, note, prognostic, symptom, type, manifestation, omen, signal
+sin, crime, fault, misdeed, vice, criminality, guilt, offense, viciousness, delinquency, ill-doing, transgression, wickedness, depravity, immorality, ungodliness, wrong, evil, iniquity, unrighteousness, wrong-doing
+sing, carol, chant, chirp, chirrup, hum, warble
+skeptic, agnostic, deist, doubter, infidel, unbeliever, atheist, disbeliever, freethinker
+sketch, brief, draft, outline, plan, design, drawing, picture, skeleton
+skilful, accomplished, apt, dexterous, happy, proficient, adept, clever, expert, ingenious, skilled, adroit, deft, handy, practised, trained
+slander, asperse, decry, disparage, revile, backbite, defame, libel, traduce, calumniate, depreciate, malign, vilify
+slang, cant, colloquialism, vulgarism, vulgarity
+slow, dawdling, dilatory, gradual, lingering, slack, delaying, drowsy, inactive, moderate, sluggish, deliberate, dull, inert, procrastinating, tardy
+sneer, fling, gibe, jeer, mock, scoff, taunt
+socialism, collectivism, communism, fabianism
+sound, noise, note, tone
+speak, announce, converse, discourse, say, articulate, declaim, enunciate, talk, chat, declare, express, tell, chatter, deliver, pronounce, utter
+speech, address, dissertation, oration, speaking, discourse, harangue, oratory, talk, disquisition, language, sermon, utterance
+spontaneous, automatic, impulsive, involuntary, voluntary, free, instinctive, unbidden, willing
+spy, detective, emissary, scout
+stain, blot, discolor, dishonor, soil, sully, tinge, color, disgrace, dye, spot, tarnish, tint
+state, affirm, aver, declare, predicate, set forth, allege, avouch, depose, pronounce, specify, assert, avow, express, propound, swear, asseverate, certify, inform, protest, tell, assure, claim, maintain, say, testify
+steep, abrupt, high, precipitous, sharp, sheer
+storm, agitation, disturbance, tempest
+story, account, legend, narrative, recital, relation, anecdote, myth, novel, record, tale, incident, narration
+stupidity, apathy, insensibility, slowness, stupefaction, dulness, obtuseness, sluggishness, stupor
 stupor, apathy, fainting, stupefaction, syncope, asphyxia, insensibility, swoon, torpor, coma, lethargy, swooning, unconsciousness
-subsidy, aid, bounty, indemnity, reward, support, allowance, gift, pension, subvention, tribute, bonus, grant, premium"
-subvert, destroy, overthrow, ruin, supplant, extinguish, overturn, supersede, suppress"
-succeed, achieve, attain, flourish, prevail, prosper, thrive, win"
-suggestion, hint, implication, innuendo, insinuation, intimation"
-supernatural, miraculous, preternatural, superhuman"
-support, bear, cherish, keep, maintain, sustain, carry, hold up, keep up, prop, uphold"
-suppose, conjecture, deem, guess, imagine, surmise, think"
-surrender, abandon, cede, give over, relinquish, alienate, give, give up, sacrifice, capitulate, give oneself up, let go, yield"
-synonymous, alike, equivalent, like, similar, correspondent, identical, same, synonymic, corresponding, interchangeable"
-system, manner, method, mode, order, regularity, rule"
-taciturn, close, mute, reticent, speechless, dumb, reserved, silent, uncommunicative"
-tasteful, artistic, delicate, esthetic, fastidious, nice, chaste, delicious, esthetical, fine, tasty, dainty, elegant, exquisite"
-teach, discipline, give instruction, inform, nurture, drill, give lessons, initiate, school, educate, inculcate, instill, train, enlighten, indoctrinate, instruct, tutor"
-temerity, audacity, heedlessness, presumption, foolhardiness, over-confidence, rashness, hardihood, precipitancy, recklessness, hastiness, precipitation, venturesomeness"
-term, article, denomination, member, phrase, condition, expression, name, word"
-terse, brief, concise, neat, short, compact, condensed, pithy, succinct, compendious, laconic, sententious"
-testimony, affidavit, attestation, deposition, proof, affirmation, certification, evidence, witness"
-therefore, accordingly, consequently, then, whence, because, hence, thence, wherefore"
-throng, concourse, crowd, host, jam, mass, multitude, press"
-time, age, duration, epoch, period, sequence, term, date, eon, era, season, succession, while"
-tip, cant, dip, incline, list, slope, careen, heel over, lean, slant, tilt"
-tire, exhaust, fatigue, harass, jade, wear out, weary, fag"
-tool, apparatus, implement, machine, utensil, appliance, instrument, mechanism, weapon"
-topic, division, issue, motion, proposition, subject, head, matter, point, question, theme"
-trace, footmark, impression, remains, token, trail, footprint, mark, remnant, track, vestige, footstep, memorial, sign"
-transact, accomplish, carry on, do, perform, act, conduct, negotiate, treat"
-transaction, act, action, affair, business, deed, doing, proceeding"
-transcendental, a priori, intuitive, original, primordial, transcendent"
-transient, brief, fleeting, fugitive, short, ephemeral, flitting, momentary, temporary, evanescent, flying, passing, transitory"
-union, coalition, conjunction, juncture, unification, combination, junction, oneness, unity"
-usual, accustomed, everyday, general, ordinary, public, common, familiar, habitual, prevailing, regular, customary, frequent, normal, prevalent, wonted"
-utility, advantage, expediency, serviceableness, avail, profit, use, benefit, service, usefulness"
-vacant, blank, leisure, unfilled, untenanted, void, empty, unemployed, unoccupied, vacuous, waste"
-vain, abortive, futile, shadowy, unsatisfying, baseless, idle, trifling, unserviceable, bootless, inconstant, trivial, unsubstantial, deceitful, ineffectual, unavailing, useless, delusive, nugatory, unimportant, vapid, empty, null, unprofitable, visionary, fruitless, profitless, unreal, worthless"
-venal, hireling, mercenary, purchasable, salable"
-venerate, adore, honor, respect, revere, reverence"
-veneration, adoration, awe, dread, reverence"
-venial, excusable, pardonable, slight, trivial"
-veracity, candor, honesty, reality, truthfulness, frankness, ingenuousness, truth, verity"
-verbal, literal, oral, vocal"
-victory, achievement, conquest, success, triumph, advantage, mastery, supremacy"
-vigilant, alert, cautious, on the lookout, wary, awake, circumspect, sleepless, watchful, careful, on the alert, wakeful, wide-awake"
+subsidy, aid, bounty, indemnity, reward, support, allowance, gift, pension, subvention, tribute, bonus, grant, premium
+subvert, destroy, overthrow, ruin, supplant, extinguish, overturn, supersede, suppress
+succeed, achieve, attain, flourish, prevail, prosper, thrive, win
+suggestion, hint, implication, innuendo, insinuation, intimation
+supernatural, miraculous, preternatural, superhuman
+support, bear, cherish, keep, maintain, sustain, carry, hold up, keep up, prop, uphold
+suppose, conjecture, deem, guess, imagine, surmise, think
+surrender, abandon, cede, give over, relinquish, alienate, give, give up, sacrifice, capitulate, give oneself up, let go, yield
+synonymous, alike, equivalent, like, similar, correspondent, identical, same, synonymic, corresponding, interchangeable
+system, manner, method, mode, order, regularity, rule
+taciturn, close, mute, reticent, speechless, dumb, reserved, silent, uncommunicative
+tasteful, artistic, delicate, esthetic, fastidious, nice, chaste, delicious, esthetical, fine, tasty, dainty, elegant, exquisite
+teach, discipline, give instruction, inform, nurture, drill, give lessons, initiate, school, educate, inculcate, instill, train, enlighten, indoctrinate, instruct, tutor
+temerity, audacity, heedlessness, presumption, foolhardiness, over-confidence, rashness, hardihood, precipitancy, recklessness, hastiness, precipitation, venturesomeness
+term, article, denomination, member, phrase, condition, expression, name, word
+terse, brief, concise, neat, short, compact, condensed, pithy, succinct, compendious, laconic, sententious
+testimony, affidavit, attestation, deposition, proof, affirmation, certification, evidence, witness
+therefore, accordingly, consequently, then, whence, because, hence, thence, wherefore
+throng, concourse, crowd, host, jam, mass, multitude, press
+time, age, duration, epoch, period, sequence, term, date, eon, era, season, succession, while
+tip, cant, dip, incline, list, slope, careen, heel over, lean, slant, tilt
+tire, exhaust, fatigue, harass, jade, wear out, weary, fag
+tool, apparatus, implement, machine, utensil, appliance, instrument, mechanism, weapon
+topic, division, issue, motion, proposition, subject, head, matter, point, question, theme
+trace, footmark, impression, remains, token, trail, footprint, mark, remnant, track, vestige, footstep, memorial, sign
+transact, accomplish, carry on, do, perform, act, conduct, negotiate, treat
+transaction, act, action, affair, business, deed, doing, proceeding
+transcendental, a priori, intuitive, original, primordial, transcendent
+transient, brief, fleeting, fugitive, short, ephemeral, flitting, momentary, temporary, evanescent, flying, passing, transitory
+union, coalition, conjunction, juncture, unification, combination, junction, oneness, unity
+usual, accustomed, everyday, general, ordinary, public, common, familiar, habitual, prevailing, regular, customary, frequent, normal, prevalent, wonted
+utility, advantage, expediency, serviceableness, avail, profit, use, benefit, service, usefulness
+vacant, blank, leisure, unfilled, untenanted, void, empty, unemployed, unoccupied, vacuous, waste
+vain, abortive, futile, shadowy, unsatisfying, baseless, idle, trifling, unserviceable, bootless, inconstant, trivial, unsubstantial, deceitful, ineffectual, unavailing, useless, delusive, nugatory, unimportant, vapid, empty, null, unprofitable, visionary, fruitless, profitless, unreal, worthless
+venal, hireling, mercenary, purchasable, salable
+venerate, adore, honor, respect, revere, reverence
+veneration, adoration, awe, dread, reverence
+venial, excusable, pardonable, slight, trivial
+veracity, candor, honesty, reality, truthfulness, frankness, ingenuousness, truth, verity
+verbal, literal, oral, vocal
+victory, achievement, conquest, success, triumph, advantage, mastery, supremacy
+vigilant, alert, cautious, on the lookout, wary, awake, circumspect, sleepless, watchful, careful, on the alert, wakeful, wide-awake
 virtue, chastity, honesty, probity, truth, duty, honor, purity, uprightness, excellence, integrity, rectitude, virtuousness, faithfulness, justice, righteousness, worth, goodness, morality, rightness, worthiness
-wander, deviate, diverge, go astray, range, rove, swerve, digress, err, ramble, roam, stray, veer"
+wander, deviate, diverge, go astray, range, rove, swerve, digress, err, ramble, roam, stray, veer
 way, alley, course, lane, path, route, avenue, driveway, pass, pathway, street, bridle-path, highroad, passage, road, thoroughfare, channel, highway, passageway, roadway, track
 wisdom, attainment, insight, prudence, depth, judgment, reason, discernment, judiciousness, reasonableness, discretion, knowledge, sagacity, enlightenment, learning, sense, erudition, prescience, skill, foresight, profundity, understanding, information
 wit, banter, fun, joke, waggery, burlesque, humor, playfulness, waggishness, drollery, jest, pleasantry, witticism, facetiousness, jocularity, raillery
