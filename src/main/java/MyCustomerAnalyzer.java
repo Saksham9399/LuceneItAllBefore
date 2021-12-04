@@ -24,6 +24,7 @@ import java.io.IOException;
 public class MyCustomerAnalyzer {
     public static class MyStopAnalyzer extends Analyzer {
 
+        // Define the set of stop words
         private CharArraySet stopWordsSet;
 
         public  MyStopAnalyzer(String[] stopWords) {
@@ -31,18 +32,16 @@ public class MyCustomerAnalyzer {
         }
 
         @Override
+        // Rewrite the Token Stream
         protected TokenStreamComponents createComponents(String arg0) {
+            // Define the standard tokenizer
             Tokenizer tokenizer = new StandardTokenizer();
-
-//            LowerCaseFilter lowerCaseFilter = new LowerCaseFilter(letterTokenizer);
-//            TokenStream tokenStream = lowerCaseFilter;
-//            TokenFilter synonymFilter = new SynonymFilter(tokenStream, getSynonymMap(), true);
-//            StopFilter stopFilter = new StopFilter(synonymFilter, stopWordsSet);
-//            TokenFilter stemFilter = new PorterStemFilter(stopFilter);
-            // create new token stream
+            // Define the token steam as lowercase filter
             TokenStream tokenStream = new LowerCaseFilter(tokenizer);
-            // add filters
+            // Add other filters
             tokenStream = new TrimFilter(tokenStream);
+            // Add SynonymGraphFilter in the FlattenGraphFilter
+            // Apply two texts of synonym and the detail code in the method: getSynonymMap()
             tokenStream = new FlattenGraphFilter(new SynonymGraphFilter(tokenStream, getSynonymMap(), true));
             tokenStream = new StopFilter(tokenStream, stopWordsSet);
             tokenStream = new SnowballFilter(tokenStream, new EnglishStemmer());
@@ -50,29 +49,34 @@ public class MyCustomerAnalyzer {
             return new TokenStreamComponents(tokenizer, tokenStream);
         }
 
-        // Synonym
+        // Apply two texts of synonym
         private SynonymMap getSynonymMap(){
             SynonymMap smap = new SynonymMap(null, null, 0);
             try{
-                BufferedReader countries = new BufferedReader(new FileReader("country.txt"));
-                String country = countries.readLine();
-                System.out.println(country);
                 SynonymMap.Builder sb = new SynonymMap.Builder(true);
-                while(country!=null){
-                    System.out.println(country);
-                    sb.add(new CharsRef("country"), new CharsRef(country), true);
-                    sb.add(new CharsRef("countries"), new CharsRef(country), true);
-                    country = countries.readLine();
+                // The first synonym dataset, make 'country' and 'countries' become synonymous with the names of countries
+                BufferedReader SynonymsFirst = new BufferedReader(new FileReader("country.txt"));
+                String FirstSynonym = SynonymsFirst.readLine();
+                String SecondSynonym = SynonymsFirst.readLine();
+                String Synonym = SynonymsFirst.readLine();
+                while(Synonym != null){
+                    System.out.println(Synonym);
+                    sb.add(new CharsRef(FirstSynonym), new CharsRef(Synonym), true);
+                    sb.add(new CharsRef(SecondSynonym), new CharsRef(Synonym), true);
+                    Synonym = SynonymsFirst.readLine();
                 }
-//                BufferedReader Synonyms = new BufferedReader(new FileReader("sny.txt"));
-//                String Synonym = Synonyms.readLine();
+
+                // The second synonym dataset, mainly contains the English synonyms
+//                BufferedReader SynonymSecond = new BufferedReader(new FileReader("sny.txt"));
+//                String Synonym = SynonymSecond.readLine();
 //                while(Synonym!=null){
 //                    String item[] = Synonym.split(", ");
 //                    for (int i = 1; i < item.length; i++) {
 //                        sb.add(new CharsRef(item[0]), new CharsRef(item[i]), true);
 //                    }
-//                    Synonym = Synonyms.readLine();
+//                    Synonym = SynonymSecond.readLine();
 //                }
+
                 smap = sb.build();
             } catch (Exception e) {
                 System.out.println("SynonymMap occurs wrong!");
